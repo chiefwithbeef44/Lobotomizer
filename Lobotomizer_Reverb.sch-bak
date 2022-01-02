@@ -1051,11 +1051,7 @@ F 3 "~" H 9900 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9700 2750 9900 2750
-Wire Wire Line
 	9700 2550 9700 2750
-Text HLabel 9900 2750 2    50   Input Italic 10
-BYPASS_VERB
 Wire Notes Line
 	10700 3100 10700 2000
 Wire Notes Line
@@ -1067,10 +1063,14 @@ Wire Notes Line
 Connection ~ 1800 2400
 Wire Wire Line
 	1800 2400 1850 2400
-Text HLabel 1850 2050 2    50   Output Italic 10
+Wire Wire Line
+	10650 2750 10650 1650
+Wire Wire Line
+	10650 1650 1800 1650
+Wire Wire Line
+	9700 2750 10650 2750
+Wire Wire Line
+	1800 1650 1800 2400
+Text Label 2250 1650 0    50   Italic 10
 BYPASS_VERB
-Wire Wire Line
-	1850 2050 1800 2050
-Wire Wire Line
-	1800 2050 1800 2400
 $EndSCHEMATC

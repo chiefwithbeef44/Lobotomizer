@@ -1364,8 +1364,6 @@ Wire Notes Line
 	9200 4450 9200 3000
 Wire Wire Line
 	950  1100 1050 1100
-Text HLabel 1100 800  2    50   Output Italic 10
-BYPASS_FUZZ
 Wire Wire Line
 	1100 800  1050 800 
 Wire Wire Line
@@ -1388,8 +1386,6 @@ Wire Notes Line
 	9200 4450 11050 4450
 Wire Notes Line
 	9150 3000 11050 3000
-Text HLabel 10200 3900 2    50   Input Italic 10
-BYPASS_FUZZ
 Wire Wire Line
 	10200 3900 10150 3900
 Wire Wire Line
@@ -1415,4 +1411,8 @@ Wire Wire Line
 	1800 3400 1700 3400
 Wire Wire Line
 	1700 3400 1700 3300
+Text GLabel 1100 800  2    50   Input Italic 10
+BYPASS_FUZZ
+Text GLabel 10200 3900 2    50   Input Italic 10
+BYPASS_FUZZ
 $EndSCHEMATC
