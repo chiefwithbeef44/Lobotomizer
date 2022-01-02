@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Lobotomizer)(type KiCad)(uri ${KIPRJMOD}/Lobotomizer.pretty)(options "")(descr ""))
+)
