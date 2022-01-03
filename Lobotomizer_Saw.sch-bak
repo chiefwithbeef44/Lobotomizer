@@ -486,7 +486,7 @@ F 1 "4001" V 1995 6530 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 1950 6450 50  0001 C CNN
 F 3 "~" H 1950 6450 50  0001 C CNN
 	1    1950 6450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1450 6750 1950 6750

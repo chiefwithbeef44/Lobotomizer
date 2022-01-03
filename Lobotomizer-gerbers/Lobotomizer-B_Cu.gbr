@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.12)-1*%
-%TF.CreationDate,2022-01-01T20:41:33-08:00*%
+%TF.CreationDate,2022-01-02T20:18:46-05:00*%
 %TF.ProjectId,Lobotomizer,4c6f626f-746f-46d6-997a-65722e6b6963,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.12)-1) date 2022-01-01 20:41:33*
+G04 Created by KiCad (PCBNEW (5.1.12)-1) date 2022-01-02 20:18:46*
 %MOMM*%
 %LPD*%
 G01*
@@ -284,7 +284,7 @@ D19*
 %TO.N,Net-(SW202-Pad3)*%
 X153670000Y-58420000D03*
 %TO.P,SW202,2*%
-%TO.N,/Lobotomizer_Saw/BYPASS_KILL*%
+%TO.N,REVERB_OUT*%
 X155670000Y-58420000D03*
 D20*
 %TO.P,SW202,1*%
@@ -535,14 +535,16 @@ D10*
 %TO.N,SIGNAL_OUT*%
 X105410000Y-53975000D03*
 %TD*%
-%TO.P,R210,1*%
-%TO.N,Net-(R210-Pad1)*%
-X118110000Y-53975000D03*
 D11*
 %TO.P,R210,2*%
 %TO.N,Net-(R208-Pad1)*%
 X128270000Y-53975000D03*
+D10*
+%TO.P,R210,1*%
+%TO.N,Net-(R210-Pad1)*%
+X118110000Y-53975000D03*
 %TD*%
+D11*
 %TO.P,R209,2*%
 %TO.N,Net-(R209-Pad2)*%
 X140970000Y-57150000D03*

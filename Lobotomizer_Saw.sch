@@ -76,10 +76,6 @@ F 3 "~" H 3600 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 2800 2850 2800
-Wire Wire Line
-	2550 2800 2550 3000
-Text HLabel 2550 3000 3    50   Output Italic 10
-BYPASS_KILL
 Connection ~ 2850 2800
 Wire Wire Line
 	2550 2800 2450 2800
@@ -453,8 +449,6 @@ F 3 "~" H 9700 4200 50  0001 C CNN
 $EndComp
 Text GLabel 8750 5650 0    50   Output Italic 10
 SIGNAL_OUT
-Text HLabel 9500 4800 0    50   Input Italic 10
-BYPASS_KILL
 $Comp
 L power:+9V #PWR0143
 U 1 1 6212FCCE
@@ -780,4 +774,8 @@ Wire Notes Line
 	1150 5650 4400 5650
 Text Notes 2350 5850 0    70   Italic 14
 POWER\n
+Wire Wire Line
+	2550 4800 9500 4800
+Wire Wire Line
+	2550 2800 2550 4800
 $EndSCHEMATC
