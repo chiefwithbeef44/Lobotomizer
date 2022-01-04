@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 11)
     (tracks 587)
     (zones 0)
     (modules 170)
@@ -9711,6 +9711,9 @@
     )
   )
 
+  (gr_text "designed by sam blake, with much love and support from ben mcdaniels and corwin jones" (at 139.7 151.13) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15) italic))
+  )
   (dimension 101.6 (width 0.15) (layer Dwgs.User)
     (gr_text "101.600 mm" (at 72.36 101.6 90) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
