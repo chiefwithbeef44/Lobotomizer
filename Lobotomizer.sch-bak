@@ -124,4 +124,8 @@ Wire Wire Line
 	2300 1050 2750 1050
 Wire Wire Line
 	2300 850  2450 850 
+Text Notes 2250 1100 0    50   ~ 0
+sleeve\n
+Text Notes 2350 850  0    50   ~ 0
+tip\n
 $EndSCHEMATC
