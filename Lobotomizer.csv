@@ -1,0 +1,295 @@
+Source:,C:\Users\blakesd\OneDrive - Rose-Hulman Institute of Technology\Documents\Lobotomizer\Lobotomizer.sch,,,,
+Date:,2/6/2022 17:32,,,,
+Tool:,Eeschema (5.1.12)-1,,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,
+Component Count:,201,,,,
+,,,,,
+Individual Components:,,,,,
+,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint
+,,C1,1n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C2,680p,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C101,100n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C102,10n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C103,470p,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C104,4.7u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C105,4.7u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C106,100n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C107,330n,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C201,22n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C202,1n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C203,100p,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C204,220n,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C205,100n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C206,100p,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C209,2.2u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C210,47n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C211,10n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C212,2.2n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C213,10n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C214,2.2u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C215,22n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C216,100u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C217,47n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C218,47u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C219,47n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C220,10p,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
+,,C221,47n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C222,10p,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
+,,C223,10u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C224,47n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+,,C225,10p,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
+,,C226,47u,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C227,1u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C228,6.8n,Device:C,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+,,C229,4.7n,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
+,,C230,1n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C231,1u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C232,100u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C233,2.2u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C234,0.1u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C235,0.15u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
+,,C236,68n,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
+,,C237,1.5u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
+,,C238,10u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C301,100n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C302,100n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C303,100n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,C304,6.8n,Device:C,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+,,C305,4.7u,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C306,220p,Device:C,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+,,C307,100u,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C308,100u,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+,,C309,100n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+,,D201,LED,Device:LED,LED_THT:LED_D5.0mm
+,,D202,LED,Device:LED,LED_THT:LED_D5.0mm
+,,D203,4148,Device:D,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D204,LED,Device:LED,LED_THT:LED_D5.0mm
+,,D205,4148,Device:D,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D206,4148,Device:D,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D207,4148,Device:D,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D208,SB2060,Device:D_Schottky,Diode_THT:D_DO-201AD_P12.70mm_Horizontal
+,,D209,SB2060,Device:D_Schottky,Diode_THT:D_DO-201AD_P12.70mm_Horizontal
+,,D210,4148,Device:D,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D211,4148,Device:D,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D301,5227,Device:D_Schottky,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D302,5227,Device:D_Schottky,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D303,5227,Device:D_Schottky,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D304,5227,Device:D_Schottky,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+,,D305,4001,Device:D,Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal
+,,D306,LED,Device:LED,LED_THT:LED_D5.0mm
+,,J1,IN,Connector:AudioJack2,Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal
+,,J2,OUT,Connector:AudioJack2,Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal
+,,J3,POWER,Connector:Barrel_Jack,Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal
+,,Q101,5089,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_Inline
+,,Q102,5089,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_Inline
+,,Q103,5308,Device:Q_NPN_Darlington_EBC,Package_TO_SOT_THT:TO-92_Inline
+,,Q201,NTE457,Device:Q_NJFET_DSG,Package_TO_SOT_THT:TO-92_Inline
+,,Q202,2N3904,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_Inline
+,,Q203,KSA992,Device:Q_PNP_ECB,Package_TO_SOT_THT:TO-92_Inline
+,,Q301,MPSA05,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_Inline
+,,Q302,MPSA05,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_Inline
+,,R1,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R2,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R3,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R4,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R5,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R6,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R7,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R8,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R9,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R101,910K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R102,180K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R103,910K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R104,910,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R105,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R106,180K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R107,4.7M,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+,,R108,910K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R109,750,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R201,1M,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R202,1K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R203,1M,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R204,1K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R205,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R206,1M,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R207,470,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R208,2.2K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R209,6.8K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R210,6.8K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R211,68K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R212,2.2K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R213,15K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R214,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R215,6.8K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R216,22K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R217,22K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R218,4.7K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R219,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R220,1M,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R221,1K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R222,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R223,22K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R224,470K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R225,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R226,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R227,22,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R228,22K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R229,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R230,120,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R231,470K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R232,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R233,150,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R234,47K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R235,220K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R236,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R237,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R238,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R239,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R240,68K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R241,3.3K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R242,3.3K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R243,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R244,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R245,330,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R246,330,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R247,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R248,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R249,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R250,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R251,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R252,68K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R253,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R254,330,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R255,100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R301,910K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R302,180K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R303,4.7K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R304,180K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R305,1K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R306,220,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+,,R307,10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,RV1,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV2,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV3,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV4,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV101,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV102,50K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV103,10K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV104,10K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV105,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV201,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV202,25K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV203,25K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV204,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV205,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV206,10K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV207,10K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV208,10K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV209,250K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV301,1M,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV302,1M,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,RV303,100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+,,SW1,SW_SPDT,Switch:SW_SPDT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+,,SW2,SW_SPDT,Switch:SW_SPDT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+,,SW3,SW_SPDT,Switch:SW_SPDT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+,,SW4,SW_SPDT,Switch:SW_SPDT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+,,SW101,SW_SPDT_MSM,Switch:SW_SPDT_MSM,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+,,SW201,SW_SPDT,Switch:SW_SPDT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+,,SW202,SW_SPDT,Switch:SW_SPDT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+,,SW203,SW_SPDT,Switch:SW_SPDT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+,,SW301,SW_SPDT,Switch:SW_SPDT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+,,U1,TL082,Device:Opamp_Dual_Generic,Package_DIP:DIP-8_W7.62mm
+,,U201,LM833,Device:Opamp_Dual_Generic,Package_DIP:DIP-8_W7.62mm
+,,U202,TL082,Device:Opamp_Dual_Generic,Package_DIP:DIP-8_W7.62mm
+,,U203,TL082,Device:Opamp_Dual_Generic,Package_DIP:DIP-8_W7.62mm
+,,U204,LM833,Device:Opamp_Dual_Generic,Package_DIP:DIP-8_W7.62mm
+,,U205,LM833,Device:Opamp_Dual_Generic,Package_DIP:DIP-8_W7.62mm
+,,U206,LM833,Device:Opamp_Dual_Generic,Package_DIP:DIP-8_W7.62mm
+,,U301,LM386,Amplifier_Audio:LM386,Package_DIP:DIP-8_W7.62mm
+,,U302,TL082,Amplifier_Operational:TL072,Package_DIP:DIP-8_W7.62mm
+,,,,,
+,,,,,
+,,,,,
+Collated Components:,,,,,
+,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint
+1,3,"C1, C202, C230",1n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+2,1,C2,680p,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+3,7,"C101, C106, C205, C301, C302, C303, C309",100n,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+4,3,"C102, C211, C213",10n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+5,1,C103,470p,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+6,2,"C104, C105",4.7u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+7,1,C107,330n,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+8,2,"C201, C215",22n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+9,2,"C203, C206",100p,Device:C,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm
+10,1,C204,220n,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+11,3,"C209, C214, C233",2.2u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+12,5,"C210, C217, C219, C221, C224",47n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+13,1,C212,2.2n,Device:C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm
+14,2,"C216, C232",100u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+15,1,C218,47u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+16,3,"C220, C222, C225",10p,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
+17,2,"C223, C238",10u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+18,1,C226,47u,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+19,2,"C227, C231",1u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+20,2,"C228, C304",6.8n,Device:C,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+21,1,C229,4.7n,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
+22,1,C234,0.1u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+23,1,C235,0.15u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
+24,1,C236,68n,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm
+25,1,C237,1.5u,Device:CP,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
+26,1,C305,4.7u,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+27,1,C306,220p,Device:C,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+28,2,"C307, C308",100u,Device:C,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+29,4,"D201, D202, D204, D306",LED,Device:LED,LED_THT:LED_D5.0mm
+30,6,"D203, D205, D206, D207, D210, D211",4148,Device:D,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+31,2,"D208, D209",SB2060,Device:D_Schottky,Diode_THT:D_DO-201AD_P12.70mm_Horizontal
+32,4,"D301, D302, D303, D304",5227,Device:D_Schottky,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+33,1,D305,4001,Device:D,Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal
+34,1,J1,IN,Connector:AudioJack2,Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal
+35,1,J2,OUT,Connector:AudioJack2,Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal
+36,1,J3,POWER,Connector:Barrel_Jack,Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal
+37,2,"Q101, Q102",5089,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_Inline
+38,1,Q103,5308,Device:Q_NPN_Darlington_EBC,Package_TO_SOT_THT:TO-92_Inline
+39,1,Q201,NTE457,Device:Q_NJFET_DSG,Package_TO_SOT_THT:TO-92_Inline
+40,1,Q202,2N3904,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_Inline
+41,1,Q203,KSA992,Device:Q_PNP_ECB,Package_TO_SOT_THT:TO-92_Inline
+42,2,"Q301, Q302",MPSA05,Device:Q_NPN_EBC,Package_TO_SOT_THT:TO-92_Inline
+43,19,"R1, R2, R3, R4, R5, R6, R7, R8, R9, R226, R229, R244, R247, R248, R249, R250, R251, R253, R255",100K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+44,4,"R101, R103, R108, R301",910K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+45,4,"R102, R106, R302, R304",180K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+46,1,R104,910,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+47,13,"R105, R205, R214, R219, R222, R225, R232, R236, R237, R238, R239, R243, R307",10K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+48,1,R107,4.7M,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+49,1,R109,750,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+50,4,"R201, R203, R206, R220",1M,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+51,4,"R202, R204, R221, R305",1K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+52,1,R207,470,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+53,2,"R208, R212",2.2K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+54,3,"R209, R210, R215",6.8K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+55,3,"R211, R240, R252",68K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+56,1,R213,15K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+57,4,"R216, R217, R223, R228",22K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+58,2,"R218, R303",4.7K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+59,2,"R224, R231",470K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+60,1,R227,22,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+61,1,R230,120,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+62,1,R233,150,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+63,1,R234,47K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+64,1,R235,220K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+65,2,"R241, R242",3.3K,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+66,3,"R245, R246, R254",330,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+67,1,R306,220,Device:R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+68,10,"RV1, RV2, RV3, RV4, RV101, RV105, RV201, RV204, RV205, RV303",100K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+69,1,RV102,50K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+70,5,"RV103, RV104, RV206, RV207, RV208",10K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+71,2,"RV202, RV203",25K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+72,1,RV209,250K,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+73,2,"RV301, RV302",1M,Device:R_POT,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical
+74,8,"SW1, SW2, SW3, SW4, SW201, SW202, SW203, SW301",SW_SPDT,Switch:SW_SPDT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+75,1,SW101,SW_SPDT_MSM,Switch:SW_SPDT_MSM,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+76,3,"U1, U202, U203",TL082,Device:Opamp_Dual_Generic,Package_DIP:DIP-8_W7.62mm
+77,4,"U201, U204, U205, U206",LM833,Device:Opamp_Dual_Generic,Package_DIP:DIP-8_W7.62mm
+78,1,U301,LM386,Amplifier_Audio:LM386,Package_DIP:DIP-8_W7.62mm
+79,1,U302,TL082,Amplifier_Operational:TL072,Package_DIP:DIP-8_W7.62mm

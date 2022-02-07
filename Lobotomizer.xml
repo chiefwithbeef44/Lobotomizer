@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>C:\Users\blakesd\OneDrive - Rose-Hulman Institute of Technology\Documents\Lobotomizer\Lobotomizer.sch</source>
-    <date>12/31/2021 11:33:20 PM</date>
+    <date>2/6/2022 5:32:59 PM</date>
     <tool>Eeschema (5.1.12)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date/>
+        <rev>2.0</rev>
+        <date>2022-01-01</date>
         <source>Lobotomizer.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -17,25 +17,12 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/Lobotomizer_Reverb/" tstamps="/61C83EBC/">
+    <sheet number="2" name="/Lobotomizer_Fuzz/" tstamps="/61F927D1/">
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date/>
-        <source>Lobotomizer_Reverb.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="3" name="/Lobotomizer_Fuzz/" tstamps="/61F927D1/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <rev>1.1</rev>
+        <date>2022-02-03</date>
         <source>Lobotomizer_Fuzz.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -43,13 +30,26 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/Lobotomizer_Saw/" tstamps="/61F92BD3/">
+    <sheet number="3" name="/Lobotomizer_Saw/" tstamps="/61F92BD3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>1.1</rev>
+        <date>2022-02-03</date>
+        <source>Lobotomizer_Saw.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>Lobotomizer_Saw.sch</source>
+        <source>Lobotomizer_Megafucker.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -60,15 +60,15 @@
   <components>
     <comp ref="J1">
       <value>IN</value>
-      <footprint>Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal</footprint>
+      <footprint>Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61B99AD9</tstamp>
     </comp>
     <comp ref="J3">
-      <value>Barrel_Jack</value>
-      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles</footprint>
+      <value>POWER</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
       <sheetpath names="/" tstamps="/"/>
@@ -76,925 +76,372 @@
     </comp>
     <comp ref="J2">
       <value>OUT</value>
-      <footprint>Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal</footprint>
+      <footprint>Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61F8DAF3</tstamp>
     </comp>
-    <comp ref="U101">
-      <value>TLC27M4AIN</value>
-      <footprint>Package_DIP:DIP-14_W7.62mm_Socket_LongPads</footprint>
-      <libsource lib="Amplifier_Operational" part="TLC274" description="Quad LinCMOS Precision Quad Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61E4F8F5</tstamp>
-    </comp>
-    <comp ref="R101">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61E883F6</tstamp>
-    </comp>
-    <comp ref="C101">
-      <value>33n</value>
-      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61E896AC</tstamp>
-    </comp>
-    <comp ref="R102">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61E8CED5</tstamp>
-    </comp>
-    <comp ref="R103">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61E8E029</tstamp>
-    </comp>
-    <comp ref="R104">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61E9BF56</tstamp>
-    </comp>
-    <comp ref="C102">
-      <value>1u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61E9C7D5</tstamp>
-    </comp>
-    <comp ref="C103">
-      <value>100N</value>
-      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61E9FC2D</tstamp>
-    </comp>
-    <comp ref="R105">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EA0879</tstamp>
-    </comp>
-    <comp ref="C104">
-      <value>10n</value>
-      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EAB3CC</tstamp>
-    </comp>
-    <comp ref="R106">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EACE13</tstamp>
-    </comp>
-    <comp ref="R107">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EACE1C</tstamp>
-    </comp>
-    <comp ref="R108">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EB0448</tstamp>
-    </comp>
-    <comp ref="C105">
-      <value>1u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EB044E</tstamp>
-    </comp>
-    <comp ref="SW101">
-      <value>SW_Push_DPDT</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push_DPDT" description="Momentary Switch, dual pole double throw"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EB904E</tstamp>
-    </comp>
-    <comp ref="R109">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EBC6F0</tstamp>
-    </comp>
-    <comp ref="C106">
-      <value>4.7n</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EC2D1A</tstamp>
-    </comp>
-    <comp ref="R111">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EC453E</tstamp>
-    </comp>
-    <comp ref="R110">
-      <value>1K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EC5D33</tstamp>
-    </comp>
-    <comp ref="C107">
-      <value>100n</value>
-      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EC7323</tstamp>
-    </comp>
-    <comp ref="C108">
-      <value>220n</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61ECACBD</tstamp>
-    </comp>
-    <comp ref="R112">
-      <value>39k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61ECC013</tstamp>
-    </comp>
-    <comp ref="R113">
-      <value>39k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61ECD536</tstamp>
-    </comp>
-    <comp ref="C109">
-      <value>33n</value>
-      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61ECDC22</tstamp>
-    </comp>
-    <comp ref="C110">
-      <value>220n</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61ECE9E2</tstamp>
-    </comp>
-    <comp ref="R114">
-      <value>5K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61ED8552</tstamp>
-    </comp>
-    <comp ref="R115">
-      <value>5K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61ED8E0C</tstamp>
-    </comp>
-    <comp ref="C111">
-      <value>470p</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EE4EEA</tstamp>
-    </comp>
-    <comp ref="R116">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EE5B55</tstamp>
-    </comp>
-    <comp ref="R117">
-      <value>6.8K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EE9F34</tstamp>
-    </comp>
-    <comp ref="R118">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EEAE5E</tstamp>
-    </comp>
-    <comp ref="R119">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EEAE67</tstamp>
-    </comp>
-    <comp ref="RV101">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EEDDD8</tstamp>
-    </comp>
-    <comp ref="C112">
-      <value>10n</value>
-      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EF06E6</tstamp>
-    </comp>
-    <comp ref="R120">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EF9DE2</tstamp>
-    </comp>
-    <comp ref="C113">
-      <value>1u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EF9DE8</tstamp>
-    </comp>
-    <comp ref="R121">
-      <value>68K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EFC32D</tstamp>
-    </comp>
-    <comp ref="RV102">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61EFD347</tstamp>
-    </comp>
-    <comp ref="C114">
-      <value>470p</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61F00E4F</tstamp>
-    </comp>
-    <comp ref="R122">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61F0D76B</tstamp>
-    </comp>
-    <comp ref="C115">
-      <value>220n</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61F140DC</tstamp>
-    </comp>
-    <comp ref="RV103">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61F163E2</tstamp>
-    </comp>
-    <comp ref="U103">
-      <value>L7805</value>
-      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
-      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61F32954</tstamp>
-    </comp>
-    <comp ref="D101">
-      <value>4001</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61F347D4</tstamp>
-    </comp>
-    <comp ref="C116">
-      <value>100U</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61F3B10D</tstamp>
-    </comp>
-    <comp ref="C117">
-      <value>100U</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61F4645E</tstamp>
-    </comp>
-    <comp ref="U102">
-      <value>BTDR-2H-L</value>
-      <footprint>Lobotomizer:BTDR-2H-L</footprint>
-      <libsource lib="2021-12-15_18-28-35" part="BTDR-2H-L" description=""/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>61ED17B0</tstamp>
-    </comp>
-    <comp ref="SW102">
+    <comp ref="SW3">
       <value>SW_SPDT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
-      <sheetpath names="/Lobotomizer_Reverb/" tstamps="/61C83EBC/"/>
-      <tstamp>6213E036</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>1K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F9311C</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F937F7</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>100p</value>
-      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F94163</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>100n</value>
-      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F9478D</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F9500B</tstamp>
-    </comp>
-    <comp ref="Q1">
-      <value>2N5457</value>
-      <footprint>Package_TO_SOT_THT:TO-92</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NJFET_DSG" description="N-JFET transistor, drain/source/gate"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F95A16</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>1K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F979A0</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>1u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F985DB</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>100n</value>
-      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F98E1D</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>470K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F9991E</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>47K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F9A0B7</tstamp>
-    </comp>
-    <comp ref="Q2">
-      <value>2N5089</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F9BF9A</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>2.2K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F9C898</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>22K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F9CDBD</tstamp>
-    </comp>
-    <comp ref="Q3">
-      <value>2N5087</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61F9E9C0</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FA4F42</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FA5391</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>100n</value>
-      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FA624C</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>Ge</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FA6A62</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FA710F</tstamp>
-    </comp>
-    <comp ref="R12">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FA7BD8</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>100n</value>
-      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FA7DF8</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>Ge</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FA9433</tstamp>
-    </comp>
-    <comp ref="R13">
-      <value>47K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FAA38D</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>47K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FAB205</tstamp>
-    </comp>
-    <comp ref="Q4">
-      <value>2N5089</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FAD504</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FAF12D</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>1u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FB0190</tstamp>
-    </comp>
-    <comp ref="RV1">
-      <value>50K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FB0CDF</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>22n</value>
-      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FB630D</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FB6D42</tstamp>
-    </comp>
-    <comp ref="R17">
-      <value>1K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FB74A6</tstamp>
-    </comp>
-    <comp ref="C9">
-      <value>1n</value>
-      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FBBC69</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>LM301</value>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
-      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FC54A2</tstamp>
-    </comp>
-    <comp ref="C10">
-      <value>30p</value>
-      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FC9448</tstamp>
-    </comp>
-    <comp ref="R19">
-      <value>560</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FCF15C</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>4.7u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FCFDEE</tstamp>
-    </comp>
-    <comp ref="R18">
-      <value>47</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FD0750</tstamp>
-    </comp>
-    <comp ref="C12">
-      <value>2.2p</value>
-      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FD106C</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>100p</value>
-      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FD8B6E</tstamp>
-    </comp>
-    <comp ref="RV2">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FDC75B</tstamp>
-    </comp>
-    <comp ref="C14">
-      <value>4.7u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FE8468</tstamp>
-    </comp>
-    <comp ref="R20">
-      <value>1K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FE9757</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>SW_SPDT_MSM</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_SPDT_MSM" description="Switch, single pole double throw, center OFF position"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FEB206</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>4148</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FEDCA2</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>4148</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FEE68E</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>4148</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FF1053</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>4148</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FF21B6</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>LED</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>61FF5368</tstamp>
-    </comp>
-    <comp ref="RV3">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6200D68B</tstamp>
-    </comp>
-    <comp ref="R21">
-      <value>1.5K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>62014ADD</tstamp>
-    </comp>
-    <comp ref="C15">
-      <value>3.3n</value>
-      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6201547E</tstamp>
-    </comp>
-    <comp ref="C16">
-      <value>22n</value>
-      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>62015E03</tstamp>
-    </comp>
-    <comp ref="R22">
-      <value>1M</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>620185BC</tstamp>
-    </comp>
-    <comp ref="Q5">
-      <value>2N5457</value>
-      <footprint>Package_TO_SOT_THT:TO-92</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NJFET_DSG" description="N-JFET transistor, drain/source/gate"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6201FD86</tstamp>
-    </comp>
-    <comp ref="R23">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>62023F9C</tstamp>
-    </comp>
-    <comp ref="C17">
-      <value>1u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>62027B25</tstamp>
-    </comp>
-    <comp ref="RV4">
-      <value>100K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6202B9CD</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62846E86</tstamp>
     </comp>
     <comp ref="SW2">
       <value>SW_SPDT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6203C586</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628471FB</tstamp>
     </comp>
-    <comp ref="R24">
-      <value>1M</value>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>620462AE</tstamp>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62847A11</tstamp>
     </comp>
-    <comp ref="C18">
-      <value>100p</value>
-      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+    <comp ref="SW4">
+      <value>SW_SPDT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6204DBBF</tstamp>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284A17C</tstamp>
     </comp>
-    <comp ref="R25">
-      <value>1K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>62054129</tstamp>
-    </comp>
-    <comp ref="C19">
-      <value>1u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>62055D7C</tstamp>
-    </comp>
-    <comp ref="R26">
-      <value>470K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>62056EB8</tstamp>
-    </comp>
-    <comp ref="R27">
-      <value>470K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>62057950</tstamp>
-    </comp>
-    <comp ref="R28">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6205F4BE</tstamp>
-    </comp>
-    <comp ref="C20">
-      <value>10u</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6206A9BB</tstamp>
-    </comp>
-    <comp ref="Q6">
-      <value>BS170</value>
-      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BS170" description="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6206E787</tstamp>
-    </comp>
-    <comp ref="R29">
-      <value>470</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6207D732</tstamp>
-    </comp>
-    <comp ref="RV5">
+    <comp ref="RV1">
       <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284D44A</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284E6A5</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284EE59</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6284F92D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628503FE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62851092</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628513D9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6285179E</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL082</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Device" part="Opamp_Dual_Generic" description="Dual operational amplifier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628519AA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6286749C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62868DEF</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6286AF0D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6287DBDB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6287E806</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628800C4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>680p</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628800CA</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FD3E4B</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FD5359</tstamp>
+    </comp>
+    <comp ref="RV101">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>6207EF58</tstamp>
+      <tstamp>61FD6174</tstamp>
     </comp>
-    <comp ref="D8">
-      <value>5817</value>
+    <comp ref="Q101">
+      <value>5089</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
       <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>620A0F1F</tstamp>
+      <tstamp>61FD79C4</tstamp>
     </comp>
-    <comp ref="C21">
-      <value>100u</value>
+    <comp ref="R101">
+      <value>910K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FD88AE</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>180K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FD8EB4</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>470p</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FD94F5</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>4.7u</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>620A51D9</tstamp>
+      <tstamp>61FE8A20</tstamp>
     </comp>
-    <comp ref="C22">
+    <comp ref="SW101">
+      <value>SW_SPDT_MSM</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT_MSM" description="Switch, single pole double throw, center OFF position"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FE9CCB</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>910K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FEE328</tstamp>
+    </comp>
+    <comp ref="Q102">
+      <value>5089</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FF024C</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FF1819</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>910</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FF23BD</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>180K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FF2D26</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>4.7u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FF591D</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FF60B0</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>910K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FF651B</tstamp>
+    </comp>
+    <comp ref="Q103">
+      <value>5308</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_Darlington_EBC" description="NPN Darlington transistor, emitter/base/collector"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FF7C1B</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>750</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>61FF9F70</tstamp>
+    </comp>
+    <comp ref="RV102">
+      <value>50K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>620111E3</tstamp>
+    </comp>
+    <comp ref="RV103">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
+      <tstamp>620126A0</tstamp>
+    </comp>
+    <comp ref="C106">
       <value>100n</value>
       <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>620A742E</tstamp>
+      <tstamp>620151CF</tstamp>
     </comp>
-    <comp ref="R30">
+    <comp ref="RV104">
       <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>620B2C22</tstamp>
+      <tstamp>6201640D</tstamp>
     </comp>
-    <comp ref="R31">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>620B3F3B</tstamp>
-    </comp>
-    <comp ref="C23">
-      <value>10u</value>
+    <comp ref="C107">
+      <value>330n</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>620B55A1</tstamp>
+      <tstamp>6201819F</tstamp>
     </comp>
-    <comp ref="SW3">
-      <value>SW_SPDT</value>
+    <comp ref="RV105">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Lobotomizer_Fuzz/" tstamps="/61F927D1/"/>
-      <tstamp>62167C6D</tstamp>
+      <tstamp>62018BBC</tstamp>
     </comp>
-    <comp ref="C201">
+    <comp ref="C301">
       <value>100n</value>
       <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
@@ -1002,28 +449,31 @@
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>621025EB</tstamp>
     </comp>
-    <comp ref="R201">
+    <comp ref="R301">
       <value>910K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>62102FD1</tstamp>
     </comp>
-    <comp ref="Q201">
+    <comp ref="Q301">
       <value>MPSA05</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>62104236</tstamp>
     </comp>
-    <comp ref="R202">
+    <comp ref="R302">
       <value>180K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>62105081</tstamp>
     </comp>
-    <comp ref="C202">
+    <comp ref="C302">
       <value>100n</value>
       <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
@@ -1031,35 +481,39 @@
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6210797F</tstamp>
     </comp>
-    <comp ref="Q202">
+    <comp ref="Q302">
       <value>MPSA05</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>62107EF9</tstamp>
     </comp>
-    <comp ref="R204">
+    <comp ref="R304">
       <value>180K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>62107F06</tstamp>
     </comp>
-    <comp ref="R203">
+    <comp ref="R303">
       <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>62109162</tstamp>
     </comp>
-    <comp ref="RV201">
+    <comp ref="RV301">
       <value>1M</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>621097E6</tstamp>
     </comp>
-    <comp ref="C203">
+    <comp ref="C303">
       <value>100n</value>
       <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
@@ -1067,42 +521,47 @@
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6210B261</tstamp>
     </comp>
-    <comp ref="U201">
+    <comp ref="U301">
       <value>LM386</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm386.pdf</datasheet>
       <libsource lib="Amplifier_Audio" part="LM386" description="Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6210BFE5</tstamp>
     </comp>
-    <comp ref="RV202">
+    <comp ref="RV302">
       <value>1M</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6210CA77</tstamp>
     </comp>
-    <comp ref="D201">
+    <comp ref="D301">
       <value>5227</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6210E8EB</tstamp>
     </comp>
-    <comp ref="D202">
+    <comp ref="D302">
       <value>5227</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6210F4E6</tstamp>
     </comp>
-    <comp ref="C204">
-      <value>6.9n</value>
+    <comp ref="C304">
+      <value>6.8n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>62111E26</tstamp>
     </comp>
-    <comp ref="C205">
+    <comp ref="C305">
       <value>4.7u</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
@@ -1110,21 +569,23 @@
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>621149B5</tstamp>
     </comp>
-    <comp ref="R205">
+    <comp ref="R305">
       <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>621163E3</tstamp>
     </comp>
-    <comp ref="C206">
+    <comp ref="C306">
       <value>220p</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6211A253</tstamp>
     </comp>
-    <comp ref="C207">
+    <comp ref="C307">
       <value>100u</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
@@ -1132,49 +593,47 @@
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6211AF83</tstamp>
     </comp>
-    <comp ref="R206">
+    <comp ref="R306">
       <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6211B6C9</tstamp>
     </comp>
-    <comp ref="D203">
+    <comp ref="D303">
       <value>5227</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6211C15A</tstamp>
     </comp>
-    <comp ref="D204">
+    <comp ref="D304">
       <value>5227</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6211C824</tstamp>
     </comp>
-    <comp ref="RV203">
+    <comp ref="RV303">
       <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>6211F20D</tstamp>
     </comp>
-    <comp ref="SW201">
-      <value>SW_SPDT</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
-      <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
-      <tstamp>62121943</tstamp>
-    </comp>
-    <comp ref="D205">
+    <comp ref="D305">
       <value>4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D" description="Diode"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>621304BD</tstamp>
     </comp>
-    <comp ref="C208">
+    <comp ref="C308">
       <value>100u</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
@@ -1182,36 +641,1026 @@
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>62133BA4</tstamp>
     </comp>
-    <comp ref="R207">
+    <comp ref="R307">
       <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>62135C9D</tstamp>
     </comp>
-    <comp ref="D206">
+    <comp ref="D306">
       <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
       <tstamp>621373F9</tstamp>
     </comp>
+    <comp ref="U302">
+      <value>TL082</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
+      <tstamp>621FCC97</tstamp>
+    </comp>
+    <comp ref="C309">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
+      <tstamp>62203CA0</tstamp>
+    </comp>
+    <comp ref="SW301">
+      <value>SW_SPDT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/Lobotomizer_Saw/" tstamps="/61F92BD3/"/>
+      <tstamp>6283EB63</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62021961</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>22n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62021BC8</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620229B1</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>1n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62022F48</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>LM833</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Device" part="Opamp_Dual_Generic" description="Dual operational amplifier"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62023741</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6202752D</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>100p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620279C6</tstamp>
+    </comp>
+    <comp ref="RV201">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6202915F</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6202A0F1</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>220n</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6202A8FA</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6202B67C</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6202C22B</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>100p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6202C932</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6202CFDB</tstamp>
+    </comp>
+    <comp ref="C233">
+      <value>2.2u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620392BB</tstamp>
+    </comp>
+    <comp ref="R207">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6203A460</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6203AD7A</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6203B921</tstamp>
+    </comp>
+    <comp ref="C209">
+      <value>2.2u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6203D4E5</tstamp>
+    </comp>
+    <comp ref="R208">
+      <value>2.2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6203DF74</tstamp>
+    </comp>
+    <comp ref="R209">
+      <value>6.8K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6203EC98</tstamp>
+    </comp>
+    <comp ref="RV203">
+      <value>25K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6203FDB4</tstamp>
+    </comp>
+    <comp ref="RV202">
+      <value>25K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62040B3A</tstamp>
+    </comp>
+    <comp ref="RV204">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62041831</tstamp>
+    </comp>
+    <comp ref="C210">
+      <value>47n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62042D48</tstamp>
+    </comp>
+    <comp ref="C211">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62046157</tstamp>
+    </comp>
+    <comp ref="R210">
+      <value>6.8K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6204C435</tstamp>
+    </comp>
+    <comp ref="R211">
+      <value>68K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6204CC85</tstamp>
+    </comp>
+    <comp ref="R213">
+      <value>15K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6204E5CE</tstamp>
+    </comp>
+    <comp ref="R212">
+      <value>2.2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6204DDCA</tstamp>
+    </comp>
+    <comp ref="C212">
+      <value>2.2n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620523EE</tstamp>
+    </comp>
+    <comp ref="R214">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62052E76</tstamp>
+    </comp>
+    <comp ref="C213">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62056410</tstamp>
+    </comp>
+    <comp ref="U202">
+      <value>TL082</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Device" part="Opamp_Dual_Generic" description="Dual operational amplifier"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620584CB</tstamp>
+    </comp>
+    <comp ref="C214">
+      <value>2.2u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6205BAF3</tstamp>
+    </comp>
+    <comp ref="R215">
+      <value>6.8K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6205CC1C</tstamp>
+    </comp>
+    <comp ref="C215">
+      <value>22n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6205D2E2</tstamp>
+    </comp>
+    <comp ref="D203">
+      <value>4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6205FA13</tstamp>
+    </comp>
+    <comp ref="D204">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62060970</tstamp>
+    </comp>
+    <comp ref="R218">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6206501A</tstamp>
+    </comp>
+    <comp ref="C216">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62065A33</tstamp>
+    </comp>
+    <comp ref="R216">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6206F7CB</tstamp>
+    </comp>
+    <comp ref="R217">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62070168</tstamp>
+    </comp>
+    <comp ref="C232">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6208891D</tstamp>
+    </comp>
+    <comp ref="U203">
+      <value>TL082</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Device" part="Opamp_Dual_Generic" description="Dual operational amplifier"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6208CD28</tstamp>
+    </comp>
+    <comp ref="SW201">
+      <value>SW_SPDT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6209C1F6</tstamp>
+    </comp>
+    <comp ref="RV205">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620A782F</tstamp>
+    </comp>
+    <comp ref="R219">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620B4925</tstamp>
+    </comp>
+    <comp ref="C217">
+      <value>47n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620B53AE</tstamp>
+    </comp>
+    <comp ref="R220">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620BA50A</tstamp>
+    </comp>
+    <comp ref="Q201">
+      <value>NTE457</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NJFET_DSG" description="N-JFET transistor, drain/source/gate"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620BE055</tstamp>
+    </comp>
+    <comp ref="R221">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620C36CB</tstamp>
+    </comp>
+    <comp ref="C218">
+      <value>47u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620C3D49</tstamp>
+    </comp>
+    <comp ref="R222">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620CF004</tstamp>
+    </comp>
+    <comp ref="C219">
+      <value>47n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620D1EBD</tstamp>
+    </comp>
+    <comp ref="R223">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620D5A54</tstamp>
+    </comp>
+    <comp ref="R225">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620E4217</tstamp>
+    </comp>
+    <comp ref="R224">
+      <value>470K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620E5311</tstamp>
+    </comp>
+    <comp ref="C220">
+      <value>10p</value>
+      <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620ECBA2</tstamp>
+    </comp>
+    <comp ref="R226">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>621039BB</tstamp>
+    </comp>
+    <comp ref="R227">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62102FBE</tstamp>
+    </comp>
+    <comp ref="Q202">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>620F1113</tstamp>
+    </comp>
+    <comp ref="C221">
+      <value>47n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6211C8FE</tstamp>
+    </comp>
+    <comp ref="R228">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6211D91B</tstamp>
+    </comp>
+    <comp ref="R229">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62121FE6</tstamp>
+    </comp>
+    <comp ref="R230">
+      <value>120</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>621271A0</tstamp>
+    </comp>
+    <comp ref="Q203">
+      <value>KSA992</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_ECB" description="PNP transistor, emitter/collector/base"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6212D7B4</tstamp>
+    </comp>
+    <comp ref="C222">
+      <value>10p</value>
+      <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62135443</tstamp>
+    </comp>
+    <comp ref="R231">
+      <value>470K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6214D72E</tstamp>
+    </comp>
+    <comp ref="R232">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62155B92</tstamp>
+    </comp>
+    <comp ref="C223">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62156875</tstamp>
+    </comp>
+    <comp ref="R233">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62157EAB</tstamp>
+    </comp>
+    <comp ref="RV209">
+      <value>250K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62160256</tstamp>
+    </comp>
+    <comp ref="R234">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62162137</tstamp>
+    </comp>
+    <comp ref="C224">
+      <value>47n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62163E56</tstamp>
+    </comp>
+    <comp ref="U204">
+      <value>LM833</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Device" part="Opamp_Dual_Generic" description="Dual operational amplifier"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62164C68</tstamp>
+    </comp>
+    <comp ref="D207">
+      <value>4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6216F27A</tstamp>
+    </comp>
+    <comp ref="D206">
+      <value>4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6217039E</tstamp>
+    </comp>
+    <comp ref="D205">
+      <value>4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62170E91</tstamp>
+    </comp>
+    <comp ref="R235">
+      <value>220K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>621718BB</tstamp>
+    </comp>
+    <comp ref="C225">
+      <value>10p</value>
+      <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62172518</tstamp>
+    </comp>
+    <comp ref="C231">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>621DFE02</tstamp>
+    </comp>
+    <comp ref="R236">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>621E1572</tstamp>
+    </comp>
+    <comp ref="D208">
+      <value>SB2060</value>
+      <footprint>Diode_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>621FAD29</tstamp>
+    </comp>
+    <comp ref="D209">
+      <value>SB2060</value>
+      <footprint>Diode_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>621FBC5B</tstamp>
+    </comp>
+    <comp ref="R238">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62246D42</tstamp>
+    </comp>
+    <comp ref="R252">
+      <value>68K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62247D15</tstamp>
+    </comp>
+    <comp ref="R239">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>622564AA</tstamp>
+    </comp>
+    <comp ref="C226">
+      <value>47u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62257302</tstamp>
+    </comp>
+    <comp ref="R237">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62279D63</tstamp>
+    </comp>
+    <comp ref="D210">
+      <value>4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6227B880</tstamp>
+    </comp>
+    <comp ref="D211">
+      <value>4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6227C24D</tstamp>
+    </comp>
+    <comp ref="C230">
+      <value>1n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6227DA14</tstamp>
+    </comp>
+    <comp ref="C227">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>622A83F3</tstamp>
+    </comp>
+    <comp ref="R240">
+      <value>68K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>622C34D3</tstamp>
+    </comp>
+    <comp ref="R241">
+      <value>3.3K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62306DCE</tstamp>
+    </comp>
+    <comp ref="RV206">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62307FC2</tstamp>
+    </comp>
+    <comp ref="U205">
+      <value>LM833</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Device" part="Opamp_Dual_Generic" description="Dual operational amplifier"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62328505</tstamp>
+    </comp>
+    <comp ref="RV207">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>623778F7</tstamp>
+    </comp>
+    <comp ref="U206">
+      <value>LM833</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Device" part="Opamp_Dual_Generic" description="Dual operational amplifier"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6238C41C</tstamp>
+    </comp>
+    <comp ref="R242">
+      <value>3.3K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>623AD7D5</tstamp>
+    </comp>
+    <comp ref="R255">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>623E952B</tstamp>
+    </comp>
+    <comp ref="R244">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>623EA295</tstamp>
+    </comp>
+    <comp ref="R245">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62429607</tstamp>
+    </comp>
+    <comp ref="R246">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6242A654</tstamp>
+    </comp>
+    <comp ref="C229">
+      <value>4.7n</value>
+      <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6242B7A3</tstamp>
+    </comp>
+    <comp ref="C228">
+      <value>6.8n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6242C3C2</tstamp>
+    </comp>
+    <comp ref="C234">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>624F9FEB</tstamp>
+    </comp>
+    <comp ref="C235">
+      <value>0.15u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>624FA7C4</tstamp>
+    </comp>
+    <comp ref="R254">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6253CA3B</tstamp>
+    </comp>
+    <comp ref="C236">
+      <value>68n</value>
+      <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6253D989</tstamp>
+    </comp>
+    <comp ref="R253">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6253EF21</tstamp>
+    </comp>
+    <comp ref="C237">
+      <value>1.5u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62571EDB</tstamp>
+    </comp>
+    <comp ref="C238">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>625B730E</tstamp>
+    </comp>
+    <comp ref="R243">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>625BA3EE</tstamp>
+    </comp>
+    <comp ref="RV208">
+      <value>10K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>625BB9A3</tstamp>
+    </comp>
+    <comp ref="SW202">
+      <value>SW_SPDT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>625DEF13</tstamp>
+    </comp>
+    <comp ref="R249">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62611D5D</tstamp>
+    </comp>
+    <comp ref="R250">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62612529</tstamp>
+    </comp>
+    <comp ref="R251">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>62669EB6</tstamp>
+    </comp>
+    <comp ref="R247">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>626B1C29</tstamp>
+    </comp>
+    <comp ref="R248">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>626C4735</tstamp>
+    </comp>
+    <comp ref="SW203">
+      <value>SW_SPDT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/Lobotomizer_Megafucker/" tstamps="/61FCD25B/"/>
+      <tstamp>6280908E</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="2021-12-15_18-28-35" part="BTDR-2H-L">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">BTDR-2H-L</field>
-      </fields>
-      <pins>
-        <pin num="1" name="+5V" type="input"/>
-        <pin num="2" name="P_GND" type="input"/>
-        <pin num="3" name="INPUT" type="input"/>
-        <pin num="4" name="S_GND" type="input"/>
-        <pin num="5" name="OUTPUT_2" type="output"/>
-        <pin num="6" name="OUTPUT_1" type="output"/>
-      </pins>
-    </libpart>
     <libpart lib="Amplifier_Audio" part="LM386">
       <description>Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8</description>
       <docs>http://www.ti.com/lit/ds/symlink/lm386.pdf</docs>
@@ -1236,91 +1685,99 @@
         <pin num="8" name="GAIN" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Amplifier_Operational" part="LM2902">
+    <libpart lib="Amplifier_Operational" part="LM2904">
       <aliases>
-        <alias>LM324</alias>
-        <alias>TLC274</alias>
-        <alias>TLC279</alias>
-        <alias>TL074</alias>
-        <alias>LM324A</alias>
-        <alias>MCP6004</alias>
-        <alias>TL084</alias>
-        <alias>TL064</alias>
-        <alias>LMV324</alias>
-        <alias>LMC6484</alias>
-        <alias>MCP604</alias>
-        <alias>MC33079</alias>
-        <alias>MC33174</alias>
-        <alias>MC33179</alias>
-        <alias>OPA1604</alias>
-        <alias>OPA1679</alias>
-        <alias>OPA4134</alias>
-        <alias>OPA4340UA</alias>
-        <alias>OPA4376</alias>
-        <alias>MCP6L94</alias>
-        <alias>TSV914</alias>
-        <alias>ADA4807-4</alias>
-        <alias>TSV994</alias>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA1678</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+        <alias>OPA2277</alias>
+        <alias>MCP6022</alias>
+        <alias>MCP6V67EMS</alias>
       </aliases>
-      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
-      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
       <footprints>
-        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
         <fp>DIP*W7.62mm*</fp>
-        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
-        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
-        <fp>MSOP*3x3mm*P0.5mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LM2902</field>
+        <field name="Value">LM2904</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="output"/>
         <pin num="2" name="-" type="input"/>
         <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V+" type="power_in"/>
+        <pin num="4" name="V-" type="power_in"/>
         <pin num="5" name="+" type="input"/>
         <pin num="6" name="-" type="input"/>
         <pin num="7" name="~" type="output"/>
-        <pin num="8" name="~" type="output"/>
-        <pin num="9" name="-" type="input"/>
-        <pin num="10" name="+" type="input"/>
-        <pin num="11" name="V-" type="power_in"/>
-        <pin num="12" name="+" type="input"/>
-        <pin num="13" name="-" type="input"/>
-        <pin num="14" name="~" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="Amplifier_Operational" part="NE5534">
-      <aliases>
-        <alias>SA5534</alias>
-        <alias>LM101</alias>
-        <alias>LM201</alias>
-        <alias>LM301</alias>
-        <alias>AD797</alias>
-        <alias>LT1012</alias>
-      </aliases>
-      <description>Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8</description>
-      <docs>http://www.ti.com/lit/ds/symlink/ne5534.pdf</docs>
-      <footprints>
-        <fp>DIP*W7.62mm*</fp>
-        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
-        <fp>TO?5*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">NE5534</field>
-      </fields>
-      <pins>
-        <pin num="1" name="BAL" type="input"/>
-        <pin num="2" name="-" type="input"/>
-        <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
-        <pin num="5" name="COMP" type="input"/>
-        <pin num="6" name="~" type="output"/>
-        <pin num="7" name="V+" type="power_in"/>
-        <pin num="8" name="C/B" type="input"/>
+        <pin num="8" name="V+" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="AudioJack2">
@@ -1439,6 +1896,33 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Opamp_Dual_Generic">
+      <description>Dual operational amplifier</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*2.95x2.8mm*P0.65mm*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>VSSOP*P0.5mm*</fp>
+        <fp>TO?99*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Opamp_Dual_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="Q_NJFET_DSG">
       <description>N-JFET transistor, drain/source/gate</description>
       <docs>~</docs>
@@ -1450,6 +1934,19 @@
         <pin num="1" name="D" type="passive"/>
         <pin num="2" name="S" type="passive"/>
         <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_Darlington_EBC">
+      <description>NPN Darlington transistor, emitter/base/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_Darlington_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="Q_NPN_EBC">
@@ -1465,17 +1962,17 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Q_PNP_EBC">
-      <description>PNP transistor, emitter/base/collector</description>
+    <libpart lib="Device" part="Q_PNP_ECB">
+      <description>PNP transistor, emitter/collector/base</description>
       <docs>~</docs>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">Q_PNP_EBC</field>
+        <field name="Value">Q_PNP_ECB</field>
       </fields>
       <pins>
         <pin num="1" name="E" type="passive"/>
-        <pin num="2" name="B" type="input"/>
-        <pin num="3" name="C" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R">
@@ -1509,50 +2006,6 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Regulator_Linear" part="L7805">
-      <aliases>
-        <alias>L7806</alias>
-        <alias>L7808</alias>
-        <alias>L7885</alias>
-        <alias>L7809</alias>
-        <alias>L7812</alias>
-        <alias>L7815</alias>
-        <alias>L7818</alias>
-        <alias>L7824</alias>
-      </aliases>
-      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
-      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
-      <footprints>
-        <fp>TO?252*</fp>
-        <fp>TO?263*</fp>
-        <fp>TO?220*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">L7805</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IN" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="OUT" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="Switch" part="SW_Push_DPDT">
-      <description>Momentary Switch, dual pole double throw</description>
-      <docs>~</docs>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_Push_DPDT</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="B" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
-        <pin num="4" name="A" type="passive"/>
-        <pin num="5" name="B" type="passive"/>
-        <pin num="6" name="C" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Switch" part="SW_SPDT">
       <description>Switch, single pole double throw</description>
       <docs>~</docs>
@@ -1579,32 +2032,8 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_FET" part="BS107">
-      <aliases>
-        <alias>BS108</alias>
-        <alias>BS170</alias>
-      </aliases>
-      <description>0.25A Id, 200V Vds, N-Channel MOSFET, TO-92</description>
-      <docs>http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF</docs>
-      <footprints>
-        <fp>TO?92*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">BS107</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
-      </fields>
-      <pins>
-        <pin num="1" name="D" type="passive"/>
-        <pin num="2" name="G" type="input"/>
-        <pin num="3" name="S" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="2021-12-15_18-28-35">
-      <uri>C:\Users\blakesd\OneDrive - Rose-Hulman Institute of Technology\Documents\Lobotomizer/2021-12-15_18-28-35.lib</uri>
-    </library>
     <library logical="Amplifier_Audio">
       <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Audio.lib</uri>
     </library>
@@ -1617,603 +2046,774 @@
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
-    <library logical="Regulator_Linear">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
-    </library>
     <library logical="Switch">
       <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
     </library>
-    <library logical="Transistor_FET">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="SIGNAL_OUT">
-      <node ref="J2" pin="T"/>
+    <net code="1" name="Net-(R1-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R5" pin="2"/>
     </net>
-    <net code="2" name="GND">
-      <node ref="RV203" pin="1"/>
-      <node ref="C205" pin="1"/>
-      <node ref="R107" pin="2"/>
-      <node ref="C206" pin="2"/>
-      <node ref="R27" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C109" pin="1"/>
-      <node ref="C208" pin="2"/>
-      <node ref="R103" pin="2"/>
-      <node ref="U101" pin="10"/>
-      <node ref="U101" pin="11"/>
-      <node ref="U103" pin="2"/>
-      <node ref="R122" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C116" pin="1"/>
-      <node ref="R15" pin="2"/>
-      <node ref="RV5" pin="3"/>
-      <node ref="C105" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="D203" pin="1"/>
-      <node ref="D204" pin="2"/>
-      <node ref="C102" pin="2"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D6" pin="2"/>
-      <node ref="D7" pin="1"/>
-      <node ref="R109" pin="2"/>
-      <node ref="Q202" pin="1"/>
-      <node ref="D205" pin="2"/>
-      <node ref="R110" pin="2"/>
-      <node ref="R22" pin="2"/>
-      <node ref="R23" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="Q201" pin="1"/>
-      <node ref="RV4" pin="3"/>
+    <net code="2" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="4" name="Net-(R3-Pad2)">
+      <node ref="RV3" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="RV4" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R6-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C230" pin="2"/>
+      <node ref="D211" pin="2"/>
+      <node ref="D210" pin="1"/>
+      <node ref="U204" pin="4"/>
+      <node ref="U301" pin="4"/>
+      <node ref="C305" pin="1"/>
+      <node ref="C226" pin="2"/>
+      <node ref="R239" pin="2"/>
+      <node ref="R104" pin="2"/>
+      <node ref="U205" pin="4"/>
+      <node ref="SW101" pin="2"/>
+      <node ref="D305" pin="2"/>
+      <node ref="C308" pin="2"/>
+      <node ref="C309" pin="1"/>
+      <node ref="U302" pin="4"/>
+      <node ref="D303" pin="1"/>
+      <node ref="D304" pin="2"/>
+      <node ref="C306" pin="2"/>
+      <node ref="RV303" pin="1"/>
+      <node ref="Q301" pin="1"/>
+      <node ref="Q302" pin="1"/>
+      <node ref="D306" pin="1"/>
+      <node ref="U203" pin="4"/>
+      <node ref="U203" pin="5"/>
+      <node ref="U203" pin="3"/>
+      <node ref="C232" pin="2"/>
+      <node ref="R232" pin="2"/>
+      <node ref="R222" pin="2"/>
+      <node ref="R227" pin="2"/>
+      <node ref="R226" pin="2"/>
+      <node ref="RV205" pin="3"/>
+      <node ref="RV209" pin="2"/>
+      <node ref="C218" pin="2"/>
+      <node ref="R217" pin="2"/>
       <node ref="U201" pin="4"/>
-      <node ref="R24" pin="2"/>
-      <node ref="D206" pin="1"/>
-      <node ref="D4" pin="2"/>
-      <node ref="R31" pin="2"/>
+      <node ref="C216" pin="2"/>
+      <node ref="R218" pin="1"/>
+      <node ref="C215" pin="2"/>
+      <node ref="U206" pin="4"/>
+      <node ref="C204" pin="1"/>
+      <node ref="RV208" pin="3"/>
+      <node ref="D201" pin="2"/>
+      <node ref="U202" pin="4"/>
+      <node ref="D202" pin="1"/>
+      <node ref="C202" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="RV4" pin="3"/>
+      <node ref="C107" pin="2"/>
+      <node ref="RV3" pin="3"/>
       <node ref="J1" pin="S"/>
       <node ref="J3" pin="2"/>
-      <node ref="U102" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="C117" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="RV101" pin="3"/>
-      <node ref="C113" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="R119" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="U102" pin="4"/>
       <node ref="RV103" pin="1"/>
-      <node ref="R29" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="J2" pin="S"/>
-      <node ref="U1" pin="4"/>
-      <node ref="R14" pin="1"/>
-      <node ref="C1" pin="2"/>
-    </net>
-    <net code="3" name="SIGNAL_IN">
-      <node ref="R1" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="J1" pin="T"/>
-      <node ref="C1" pin="1"/>
-    </net>
-    <net code="4" name="Net-(R120-Pad1)">
-      <node ref="R120" pin="1"/>
-      <node ref="R121" pin="2"/>
-      <node ref="U101" pin="6"/>
-    </net>
-    <net code="5" name="Net-(C113-Pad1)">
-      <node ref="C113" pin="1"/>
-      <node ref="R120" pin="2"/>
-    </net>
-    <net code="6" name="Net-(R114-Pad1)">
-      <node ref="R114" pin="1"/>
-      <node ref="R115" pin="1"/>
-      <node ref="RV101" pin="1"/>
-    </net>
-    <net code="7" name="Net-(C114-Pad2)">
-      <node ref="C114" pin="2"/>
-      <node ref="RV102" pin="1"/>
-      <node ref="R121" pin="1"/>
-    </net>
-    <net code="8" name="Net-(SW101-Pad2)">
-      <node ref="SW101" pin="2"/>
-      <node ref="U102" pin="3"/>
-    </net>
-    <net code="9" name="Net-(C114-Pad1)">
-      <node ref="R122" pin="1"/>
-      <node ref="RV102" pin="2"/>
-      <node ref="C114" pin="1"/>
-      <node ref="C115" pin="2"/>
-      <node ref="U101" pin="7"/>
-    </net>
-    <net code="10" name="Net-(RV102-Pad3)">
-      <node ref="RV102" pin="3"/>
-    </net>
-    <net code="11" name="Net-(C103-Pad2)">
-      <node ref="R116" pin="2"/>
-      <node ref="C111" pin="2"/>
-      <node ref="C103" pin="2"/>
-    </net>
-    <net code="12" name="VCLEAN">
-      <node ref="R202" pin="1"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="R201" pin="1"/>
-      <node ref="R204" pin="1"/>
-      <node ref="C208" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R28" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="U1" pin="7"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="R207" pin="2"/>
-      <node ref="C22" pin="1"/>
-      <node ref="R30" pin="2"/>
-      <node ref="D205" pin="1"/>
-      <node ref="R13" pin="2"/>
-      <node ref="C21" pin="1"/>
-      <node ref="D8" pin="2"/>
-      <node ref="D8" pin="1"/>
-      <node ref="U103" pin="1"/>
-      <node ref="R106" pin="1"/>
-      <node ref="D101" pin="1"/>
-      <node ref="D101" pin="2"/>
-      <node ref="U201" pin="6"/>
-      <node ref="U101" pin="4"/>
-      <node ref="C116" pin="2"/>
-      <node ref="R102" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="R118" pin="1"/>
-    </net>
-    <net code="13" name="Net-(C111-Pad1)">
-      <node ref="R117" pin="2"/>
-      <node ref="C111" pin="1"/>
-      <node ref="R116" pin="1"/>
-    </net>
-    <net code="14" name="Net-(C112-Pad2)">
-      <node ref="R119" pin="1"/>
-      <node ref="R117" pin="1"/>
-      <node ref="R118" pin="2"/>
-      <node ref="C112" pin="2"/>
-      <node ref="U101" pin="5"/>
-    </net>
-    <net code="15" name="Net-(C112-Pad1)">
-      <node ref="C112" pin="1"/>
-      <node ref="RV101" pin="2"/>
-    </net>
-    <net code="16" name="5VCLEAN">
-      <node ref="U102" pin="1"/>
-      <node ref="U103" pin="3"/>
-      <node ref="C117" pin="2"/>
-    </net>
-    <net code="17" name="Net-(RV103-Pad3)">
-      <node ref="SW102" pin="3"/>
-      <node ref="RV103" pin="3"/>
-    </net>
-    <net code="18" name="/Lobotomizer_Reverb/BYPASS_VERB">
-      <node ref="SW102" pin="1"/>
-    </net>
-    <net code="19" name="REVERB_OUT">
-      <node ref="C201" pin="2"/>
-      <node ref="SW102" pin="2"/>
-    </net>
-    <net code="20" name="Net-(R114-Pad2)">
-      <node ref="R114" pin="2"/>
-      <node ref="U102" pin="6"/>
-    </net>
-    <net code="21" name="Net-(R115-Pad2)">
-      <node ref="R115" pin="2"/>
-      <node ref="U102" pin="5"/>
-    </net>
-    <net code="22" name="Net-(C115-Pad1)">
-      <node ref="C115" pin="1"/>
-      <node ref="RV103" pin="2"/>
-    </net>
-    <net code="23" name="Net-(U101-Pad8)">
-      <node ref="U101" pin="8"/>
-    </net>
-    <net code="24" name="Net-(U101-Pad9)">
-      <node ref="U101" pin="9"/>
-    </net>
-    <net code="25" name="Net-(C104-Pad1)">
-      <node ref="C104" pin="1"/>
-      <node ref="R105" pin="2"/>
-    </net>
-    <net code="26" name="FUZZ_OUT">
-      <node ref="R105" pin="1"/>
-      <node ref="SW3" pin="2"/>
-      <node ref="R101" pin="2"/>
-    </net>
-    <net code="27" name="Net-(C102-Pad1)">
-      <node ref="C102" pin="1"/>
-      <node ref="R104" pin="2"/>
-    </net>
-    <net code="28" name="Net-(C105-Pad1)">
-      <node ref="C105" pin="1"/>
       <node ref="R108" pin="2"/>
+      <node ref="J2" pin="S"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="RV105" pin="1"/>
     </net>
-    <net code="29" name="Net-(C104-Pad2)">
-      <node ref="U101" pin="3"/>
-      <node ref="C104" pin="2"/>
-      <node ref="R106" pin="2"/>
-      <node ref="R107" pin="1"/>
-    </net>
-    <net code="30" name="Net-(C103-Pad1)">
-      <node ref="U101" pin="14"/>
-      <node ref="R104" pin="1"/>
-      <node ref="U101" pin="13"/>
-      <node ref="C103" pin="1"/>
-    </net>
-    <net code="31" name="Net-(C101-Pad1)">
-      <node ref="R103" pin="1"/>
-      <node ref="U101" pin="12"/>
-      <node ref="C101" pin="1"/>
-      <node ref="R102" pin="2"/>
-    </net>
-    <net code="32" name="Net-(C101-Pad2)">
-      <node ref="R101" pin="1"/>
-      <node ref="C101" pin="2"/>
-    </net>
-    <net code="33" name="Net-(C108-Pad2)">
-      <node ref="C108" pin="2"/>
-      <node ref="SW101" pin="1"/>
-    </net>
-    <net code="34" name="Net-(C109-Pad2)">
-      <node ref="R113" pin="2"/>
-      <node ref="C109" pin="2"/>
-      <node ref="R112" pin="1"/>
-    </net>
-    <net code="35" name="Net-(C110-Pad2)">
-      <node ref="C110" pin="2"/>
-      <node ref="R113" pin="1"/>
-    </net>
-    <net code="36" name="Net-(C108-Pad1)">
-      <node ref="C108" pin="1"/>
-      <node ref="R112" pin="2"/>
-    </net>
-    <net code="37" name="Net-(C107-Pad2)">
-      <node ref="C107" pin="2"/>
-      <node ref="SW101" pin="6"/>
-    </net>
-    <net code="38" name="Net-(C106-Pad1)">
-      <node ref="SW101" pin="3"/>
-      <node ref="C106" pin="1"/>
-    </net>
-    <net code="39" name="Net-(C110-Pad1)">
-      <node ref="SW101" pin="4"/>
-      <node ref="C110" pin="1"/>
-    </net>
-    <net code="40" name="Net-(R108-Pad1)">
-      <node ref="R109" pin="1"/>
-      <node ref="U101" pin="1"/>
-      <node ref="U101" pin="2"/>
-      <node ref="SW101" pin="5"/>
-      <node ref="R108" pin="1"/>
-    </net>
-    <net code="41" name="Net-(C107-Pad1)">
-      <node ref="R111" pin="2"/>
-      <node ref="C107" pin="1"/>
-    </net>
-    <net code="42" name="Net-(C106-Pad2)">
-      <node ref="C106" pin="2"/>
-      <node ref="R111" pin="1"/>
-      <node ref="R110" pin="1"/>
-    </net>
-    <net code="43" name="/Lobotomizer_Fuzz/VR">
-      <node ref="Q5" pin="1"/>
-    </net>
-    <net code="44" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2"/>
-      <node ref="R23" pin="1"/>
-      <node ref="Q5" pin="2"/>
-    </net>
-    <net code="45" name="Net-(C16-Pad2)">
-      <node ref="R22" pin="1"/>
-      <node ref="C16" pin="2"/>
-      <node ref="Q5" pin="3"/>
-    </net>
-    <net code="46" name="Net-(C15-Pad1)">
-      <node ref="C16" pin="1"/>
-      <node ref="C15" pin="1"/>
-      <node ref="R21" pin="1"/>
-    </net>
-    <net code="47" name="Net-(R21-Pad2)">
-      <node ref="R21" pin="2"/>
-      <node ref="RV3" pin="3"/>
-    </net>
-    <net code="48" name="Net-(R20-Pad1)">
-      <node ref="SW1" pin="2"/>
-      <node ref="RV3" pin="2"/>
-      <node ref="RV3" pin="1"/>
-      <node ref="R20" pin="1"/>
-    </net>
-    <net code="49" name="Net-(SW2-Pad2)">
-      <node ref="SW3" pin="3"/>
-      <node ref="SW2" pin="2"/>
-    </net>
-    <net code="50" name="Net-(RV5-Pad2)">
-      <node ref="RV5" pin="2"/>
-      <node ref="SW2" pin="1"/>
-    </net>
-    <net code="51" name="Net-(C17-Pad1)">
-      <node ref="RV4" pin="1"/>
-      <node ref="C17" pin="1"/>
-    </net>
-    <net code="52" name="Net-(D6-Pad1)">
-      <node ref="D7" pin="2"/>
-      <node ref="D6" pin="1"/>
-      <node ref="SW1" pin="1"/>
-    </net>
-    <net code="53" name="Net-(C14-Pad1)">
-      <node ref="R20" pin="2"/>
-      <node ref="C14" pin="1"/>
-    </net>
-    <net code="54" name="Net-(D3-Pad1)">
-      <node ref="D3" pin="1"/>
-      <node ref="SW1" pin="3"/>
-      <node ref="D5" pin="2"/>
-    </net>
-    <net code="55" name="Net-(C5-Pad1)">
-      <node ref="D1" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="56" name="Net-(D3-Pad2)">
-      <node ref="D4" pin="1"/>
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="57" name="/Lobotomizer_Fuzz/VR">
-      <node ref="C23" pin="1"/>
-      <node ref="R31" pin="1"/>
-      <node ref="R30" pin="1"/>
-    </net>
-    <net code="58" name="Net-(C8-Pad1)">
-      <node ref="R16" pin="2"/>
-      <node ref="C8" pin="1"/>
-      <node ref="R17" pin="1"/>
-    </net>
-    <net code="59" name="/Lobotomizer_Fuzz/BYPASS_FUZZ">
-      <node ref="SW3" pin="1"/>
-    </net>
-    <net code="60" name="Net-(C19-Pad1)">
-      <node ref="R27" pin="1"/>
-      <node ref="R26" pin="2"/>
-      <node ref="C19" pin="1"/>
-      <node ref="Q6" pin="2"/>
-    </net>
-    <net code="61" name="Net-(C19-Pad2)">
-      <node ref="R25" pin="1"/>
-      <node ref="C19" pin="2"/>
-    </net>
-    <net code="62" name="Net-(C18-Pad1)">
-      <node ref="C18" pin="1"/>
-      <node ref="R25" pin="2"/>
-      <node ref="RV4" pin="2"/>
-      <node ref="R24" pin="1"/>
-      <node ref="SW2" pin="3"/>
-    </net>
-    <net code="63" name="Net-(C20-Pad1)">
-      <node ref="C20" pin="1"/>
-      <node ref="RV5" pin="1"/>
-    </net>
-    <net code="64" name="Net-(Q6-Pad3)">
-      <node ref="Q6" pin="3"/>
-      <node ref="R29" pin="1"/>
-    </net>
-    <net code="65" name="Net-(C20-Pad2)">
-      <node ref="Q6" pin="1"/>
-      <node ref="R28" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="R26" pin="1"/>
-    </net>
-    <net code="66" name="Net-(Q2-Pad3)">
-      <node ref="Q3" pin="2"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="R7" pin="2"/>
-    </net>
-    <net code="67" name="Net-(C6-Pad2)">
-      <node ref="C6" pin="2"/>
-      <node ref="Q3" pin="1"/>
+    <net code="8" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="T"/>
       <node ref="R9" pin="1"/>
     </net>
-    <net code="68" name="Net-(Q2-Pad1)">
+    <net code="9" name="Net-(C1-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="C1" pin="1"/>
       <node ref="R8" pin="1"/>
-      <node ref="Q2" pin="1"/>
     </net>
-    <net code="69" name="Net-(C4-Pad1)">
-      <node ref="Q2" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="R6" pin="1"/>
-      <node ref="C4" pin="1"/>
+    <net code="10" name="Net-(RV4-Pad1)">
+      <node ref="RV4" pin="1"/>
+      <node ref="SW4" pin="2"/>
     </net>
-    <net code="70" name="Net-(C6-Pad1)">
-      <node ref="D2" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="C6" pin="1"/>
+    <net code="11" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
     </net>
-    <net code="71" name="Net-(R11-Pad2)">
-      <node ref="R13" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R12" pin="1"/>
-      <node ref="R11" pin="2"/>
-    </net>
-    <net code="72" name="Net-(C5-Pad2)">
-      <node ref="C5" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="Q3" pin="3"/>
-    </net>
-    <net code="73" name="Net-(C2-Pad1)">
-      <node ref="Q1" pin="3"/>
-      <node ref="R3" pin="1"/>
-      <node ref="C2" pin="1"/>
-    </net>
-    <net code="74" name="Net-(C2-Pad2)">
-      <node ref="C2" pin="2"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="75" name="Net-(C3-Pad2)">
-      <node ref="R4" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C4" pin="2"/>
-    </net>
-    <net code="76" name="Net-(C11-Pad1)">
-      <node ref="C14" pin="2"/>
-      <node ref="U1" pin="6"/>
-      <node ref="RV2" pin="1"/>
-      <node ref="C11" pin="1"/>
-    </net>
-    <net code="77" name="Net-(C11-Pad2)">
-      <node ref="RV2" pin="2"/>
-      <node ref="RV2" pin="3"/>
-      <node ref="U1" pin="2"/>
-      <node ref="R19" pin="2"/>
-      <node ref="R18" pin="2"/>
-      <node ref="C11" pin="2"/>
-    </net>
-    <net code="78" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="79" name="Net-(C10-Pad2)">
-      <node ref="C10" pin="2"/>
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="80" name="Net-(U1-Pad1)">
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="81" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1"/>
-      <node ref="R18" pin="1"/>
-    </net>
-    <net code="82" name="Net-(C13-Pad1)">
-      <node ref="C13" pin="1"/>
-      <node ref="R19" pin="1"/>
-    </net>
-    <net code="83" name="Net-(C3-Pad1)">
-      <node ref="RV1" pin="1"/>
-      <node ref="C3" pin="1"/>
-    </net>
-    <net code="84" name="Net-(C7-Pad2)">
-      <node ref="Q4" pin="1"/>
-      <node ref="R15" pin="1"/>
-      <node ref="C7" pin="2"/>
-    </net>
-    <net code="85" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="D2" pin="1"/>
-    </net>
-    <net code="86" name="Net-(C9-Pad1)">
-      <node ref="C9" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="87" name="Net-(C7-Pad1)">
-      <node ref="C7" pin="1"/>
-      <node ref="RV1" pin="3"/>
-    </net>
-    <net code="88" name="Net-(C8-Pad2)">
-      <node ref="RV1" pin="2"/>
-      <node ref="C8" pin="2"/>
-    </net>
-    <net code="89" name="/Lobotomizer_Fuzz/VR">
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="90" name="Net-(C207-Pad2)">
+    <net code="12" name="VCLEAN">
+      <node ref="D305" pin="1"/>
       <node ref="U201" pin="5"/>
-      <node ref="C207" pin="2"/>
-    </net>
-    <net code="91" name="Net-(C207-Pad1)">
-      <node ref="R206" pin="2"/>
-      <node ref="C207" pin="1"/>
-    </net>
-    <net code="92" name="Net-(C205-Pad2)">
-      <node ref="C205" pin="2"/>
-      <node ref="U201" pin="7"/>
-    </net>
-    <net code="93" name="Net-(R205-Pad1)">
-      <node ref="R205" pin="1"/>
-      <node ref="U201" pin="1"/>
-    </net>
-    <net code="94" name="Net-(R205-Pad2)">
-      <node ref="U201" pin="8"/>
-      <node ref="R205" pin="2"/>
-    </net>
-    <net code="95" name="Net-(D206-Pad2)">
-      <node ref="D206" pin="2"/>
-      <node ref="R207" pin="1"/>
-    </net>
-    <net code="96" name="Net-(D203-Pad2)">
-      <node ref="R206" pin="1"/>
-      <node ref="D204" pin="1"/>
+      <node ref="R307" pin="2"/>
+      <node ref="C308" pin="1"/>
       <node ref="D203" pin="2"/>
-      <node ref="RV203" pin="3"/>
+      <node ref="RV102" pin="3"/>
+      <node ref="R106" pin="1"/>
+      <node ref="R238" pin="1"/>
+      <node ref="U301" pin="6"/>
+      <node ref="R304" pin="1"/>
+      <node ref="D204" pin="2"/>
+      <node ref="R302" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U202" pin="3"/>
+      <node ref="R107" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="R103" pin="1"/>
+      <node ref="R230" pin="1"/>
+      <node ref="R229" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R102" pin="1"/>
+      <node ref="Q201" pin="1"/>
+      <node ref="U202" pin="6"/>
+      <node ref="C232" pin="1"/>
+      <node ref="R221" pin="2"/>
+      <node ref="U202" pin="7"/>
+      <node ref="R225" pin="1"/>
+      <node ref="U302" pin="8"/>
+      <node ref="C309" pin="2"/>
+      <node ref="R101" pin="1"/>
     </net>
-    <net code="97" name="Net-(RV203-Pad2)">
-      <node ref="RV203" pin="2"/>
+    <net code="13" name="SIGNAL_IN">
+      <node ref="SW301" pin="3"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="J1" pin="T"/>
+      <node ref="SW203" pin="3"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(SW3-Pad1)">
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(RV3-Pad1)">
+      <node ref="SW3" pin="2"/>
+      <node ref="RV3" pin="1"/>
+    </net>
+    <net code="16" name="MEGAFUCKER_OUT">
+      <node ref="R248" pin="1"/>
+      <node ref="SW301" pin="1"/>
+      <node ref="SW3" pin="3"/>
+      <node ref="U203" pin="7"/>
+    </net>
+    <net code="17" name="Net-(SW2-Pad1)">
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="18" name="Net-(RV2-Pad1)">
+      <node ref="SW2" pin="2"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="19" name="FUZZ_OUT">
+      <node ref="SW2" pin="3"/>
+      <node ref="RV105" pin="3"/>
+      <node ref="SW203" pin="1"/>
+    </net>
+    <net code="20" name="Net-(RV1-Pad1)">
+      <node ref="RV1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="21" name="Net-(SW4-Pad1)">
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="22" name="SAW_OUT">
+      <node ref="SW4" pin="3"/>
+      <node ref="RV303" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R2-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="24" name="Net-(R1-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C105-Pad2)">
+      <node ref="C105" pin="2"/>
+      <node ref="R108" pin="1"/>
+      <node ref="R107" pin="2"/>
+      <node ref="Q103" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R109-Pad1)">
+      <node ref="R109" pin="1"/>
+      <node ref="RV102" pin="2"/>
+      <node ref="RV102" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C105-Pad1)">
+      <node ref="Q102" pin="3"/>
+      <node ref="R106" pin="2"/>
+      <node ref="C105" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C107-Pad1)">
+      <node ref="C107" pin="1"/>
+      <node ref="RV104" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C106-Pad2)">
+      <node ref="R109" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="Q103" pin="3"/>
+    </net>
+    <net code="30" name="Net-(Q103-Pad1)">
+      <node ref="Q103" pin="1"/>
+      <node ref="RV103" pin="2"/>
+    </net>
+    <net code="31" name="Net-(RV103-Pad3)">
+      <node ref="RV103" pin="3"/>
+    </net>
+    <net code="32" name="Net-(C106-Pad1)">
+      <node ref="C106" pin="1"/>
+      <node ref="RV104" pin="2"/>
+      <node ref="RV104" pin="3"/>
+      <node ref="RV105" pin="2"/>
+    </net>
+    <net code="33" name="Net-(C102-Pad1)">
+      <node ref="RV101" pin="2"/>
+      <node ref="C102" pin="1"/>
+      <node ref="RV101" pin="1"/>
+      <node ref="C103" pin="2"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C101-Pad1)">
+      <node ref="RV101" pin="3"/>
+      <node ref="C101" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Q102-Pad1)">
+      <node ref="R105" pin="2"/>
+      <node ref="Q102" pin="1"/>
+    </net>
+    <net code="36" name="Net-(R105-Pad1)">
+      <node ref="R105" pin="1"/>
+      <node ref="SW101" pin="3"/>
+    </net>
+    <net code="37" name="Net-(C104-Pad2)">
+      <node ref="Q102" pin="2"/>
+      <node ref="R104" pin="1"/>
+      <node ref="R103" pin="2"/>
+      <node ref="C104" pin="2"/>
+    </net>
+    <net code="38" name="Net-(C103-Pad1)">
+      <node ref="Q101" pin="3"/>
+      <node ref="R102" pin="2"/>
+      <node ref="C104" pin="1"/>
+      <node ref="C103" pin="1"/>
+    </net>
+    <net code="39" name="Net-(Q101-Pad1)">
+      <node ref="SW101" pin="1"/>
+      <node ref="Q101" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D303-Pad2)">
+      <node ref="R306" pin="1"/>
+      <node ref="D304" pin="1"/>
+      <node ref="RV303" pin="3"/>
+      <node ref="D303" pin="2"/>
+    </net>
+    <net code="41" name="Net-(R305-Pad1)">
+      <node ref="R305" pin="1"/>
+      <node ref="U301" pin="1"/>
+    </net>
+    <net code="42" name="Net-(R305-Pad2)">
+      <node ref="U301" pin="8"/>
+      <node ref="R305" pin="2"/>
+    </net>
+    <net code="43" name="Net-(C307-Pad2)">
+      <node ref="C307" pin="2"/>
+      <node ref="U301" pin="5"/>
+    </net>
+    <net code="44" name="Net-(C307-Pad1)">
+      <node ref="C307" pin="1"/>
+      <node ref="R306" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D306-Pad2)">
+      <node ref="R307" pin="1"/>
+      <node ref="D306" pin="2"/>
+    </net>
+    <net code="46" name="Net-(R303-Pad2)">
+      <node ref="RV301" pin="1"/>
+      <node ref="R303" pin="2"/>
+    </net>
+    <net code="47" name="Net-(C302-Pad1)">
+      <node ref="Q302" pin="2"/>
+      <node ref="R303" pin="1"/>
+      <node ref="C302" pin="1"/>
+    </net>
+    <net code="48" name="Net-(RV301-Pad3)">
+      <node ref="RV301" pin="3"/>
+    </net>
+    <net code="49" name="Net-(C305-Pad2)">
+      <node ref="C305" pin="2"/>
+      <node ref="U301" pin="7"/>
+    </net>
+    <net code="50" name="Net-(C301-Pad2)">
+      <node ref="C301" pin="2"/>
+      <node ref="SW301" pin="2"/>
+    </net>
+    <net code="51" name="Net-(C301-Pad1)">
+      <node ref="C301" pin="1"/>
+      <node ref="R301" pin="2"/>
+      <node ref="Q301" pin="2"/>
+    </net>
+    <net code="52" name="Net-(C302-Pad2)">
+      <node ref="C302" pin="2"/>
+      <node ref="R302" pin="2"/>
+      <node ref="Q301" pin="3"/>
+    </net>
+    <net code="53" name="Net-(C303-Pad2)">
+      <node ref="D302" pin="2"/>
+      <node ref="D301" pin="1"/>
+      <node ref="RV302" pin="1"/>
+      <node ref="C303" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D301-Pad2)">
+      <node ref="D301" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="RV302" pin="2"/>
+    </net>
+    <net code="55" name="Net-(C304-Pad1)">
+      <node ref="C304" pin="1"/>
+      <node ref="C306" pin="1"/>
+      <node ref="D302" pin="1"/>
+      <node ref="U301" pin="3"/>
+    </net>
+    <net code="56" name="Net-(C304-Pad2)">
+      <node ref="RV302" pin="3"/>
+      <node ref="C304" pin="2"/>
+    </net>
+    <net code="57" name="Net-(C303-Pad1)">
+      <node ref="C303" pin="1"/>
+      <node ref="Q302" pin="3"/>
+      <node ref="R304" pin="2"/>
+      <node ref="RV301" pin="2"/>
+    </net>
+    <net code="58" name="Net-(R241-Pad2)">
+      <node ref="R241" pin="2"/>
+      <node ref="U204" pin="6"/>
+      <node ref="U204" pin="7"/>
+    </net>
+    <net code="59" name="Net-(C227-Pad2)">
+      <node ref="C230" pin="1"/>
+      <node ref="D211" pin="1"/>
+      <node ref="D210" pin="2"/>
+      <node ref="R237" pin="1"/>
+      <node ref="C227" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R242-Pad2)">
+      <node ref="U206" pin="2"/>
+      <node ref="RV207" pin="1"/>
+      <node ref="RV206" pin="1"/>
+      <node ref="R242" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C238-Pad1)">
+      <node ref="R242" pin="1"/>
+      <node ref="U206" pin="1"/>
+      <node ref="C238" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R233-Pad1)">
+      <node ref="RV209" pin="3"/>
+      <node ref="R233" pin="1"/>
+    </net>
+    <net code="63" name="Net-(R241-Pad1)">
+      <node ref="R241" pin="1"/>
+      <node ref="RV206" pin="3"/>
+      <node ref="U206" pin="3"/>
+      <node ref="RV207" pin="3"/>
+    </net>
+    <net code="64" name="Net-(R246-Pad2)">
+      <node ref="U205" pin="6"/>
+      <node ref="U205" pin="7"/>
+      <node ref="R246" pin="2"/>
+    </net>
+    <net code="65" name="Net-(C225-Pad1)">
+      <node ref="D207" pin="1"/>
+      <node ref="U204" pin="1"/>
+      <node ref="R235" pin="1"/>
+      <node ref="D206" pin="2"/>
+      <node ref="C231" pin="2"/>
+      <node ref="C225" pin="1"/>
+    </net>
+    <net code="66" name="Net-(C224-Pad2)">
+      <node ref="R234" pin="1"/>
+      <node ref="C224" pin="2"/>
+    </net>
+    <net code="67" name="Net-(R234-Pad2)">
+      <node ref="R234" pin="2"/>
+      <node ref="RV209" pin="1"/>
+    </net>
+    <net code="68" name="Net-(C224-Pad1)">
+      <node ref="D207" pin="2"/>
+      <node ref="D205" pin="1"/>
+      <node ref="R235" pin="2"/>
+      <node ref="C225" pin="2"/>
+      <node ref="C224" pin="1"/>
+      <node ref="U204" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D205-Pad2)">
+      <node ref="D205" pin="2"/>
+      <node ref="D206" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C226-Pad1)">
+      <node ref="C226" pin="1"/>
+      <node ref="R239" pin="1"/>
+      <node ref="R238" pin="2"/>
+      <node ref="R252" pin="1"/>
+      <node ref="R240" pin="1"/>
+    </net>
+    <net code="71" name="Net-(C231-Pad1)">
+      <node ref="C231" pin="1"/>
+      <node ref="R236" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D208-Pad1)">
+      <node ref="D208" pin="1"/>
+      <node ref="D209" pin="2"/>
+      <node ref="R236" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D208-Pad2)">
+      <node ref="R237" pin="2"/>
+      <node ref="D208" pin="2"/>
+      <node ref="D209" pin="1"/>
+    </net>
+    <net code="74" name="Net-(RV208-Pad1)">
+      <node ref="SW202" pin="1"/>
+      <node ref="RV208" pin="1"/>
+    </net>
+    <net code="75" name="Net-(R249-Pad1)">
+      <node ref="R249" pin="1"/>
+      <node ref="R250" pin="1"/>
+      <node ref="R251" pin="2"/>
+      <node ref="U203" pin="2"/>
+    </net>
+    <net code="76" name="Net-(R249-Pad2)">
+      <node ref="RV205" pin="2"/>
+      <node ref="R249" pin="2"/>
+    </net>
+    <net code="77" name="Net-(R250-Pad2)">
+      <node ref="R250" pin="2"/>
+      <node ref="RV208" pin="2"/>
+    </net>
+    <net code="78" name="Net-(SW202-Pad3)">
+      <node ref="SW202" pin="3"/>
+    </net>
+    <net code="79" name="Net-(C238-Pad2)">
+      <node ref="R243" pin="2"/>
+      <node ref="C238" pin="2"/>
+    </net>
+    <net code="80" name="Net-(C237-Pad1)">
+      <node ref="RV207" pin="2"/>
+      <node ref="C237" pin="1"/>
+    </net>
+    <net code="81" name="Net-(C234-Pad2)">
+      <node ref="RV206" pin="2"/>
+      <node ref="C234" pin="2"/>
+      <node ref="C235" pin="2"/>
+    </net>
+    <net code="82" name="Net-(C227-Pad1)">
+      <node ref="C227" pin="1"/>
+      <node ref="U204" pin="5"/>
+      <node ref="R240" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R243-Pad1)">
+      <node ref="SW202" pin="2"/>
+      <node ref="R243" pin="1"/>
+    </net>
+    <net code="84" name="Net-(SW201-Pad3)">
       <node ref="SW201" pin="3"/>
     </net>
-    <net code="98" name="/Lobotomizer_Saw/BYPASS_KILL">
-      <node ref="SW201" pin="1"/>
+    <net code="85" name="Net-(R247-Pad2)">
+      <node ref="U203" pin="1"/>
+      <node ref="R251" pin="1"/>
+      <node ref="R247" pin="2"/>
     </net>
-    <net code="99" name="OUT">
-      <node ref="SW201" pin="2"/>
+    <net code="86" name="Net-(R247-Pad1)">
+      <node ref="U203" pin="6"/>
+      <node ref="R247" pin="1"/>
+      <node ref="R248" pin="2"/>
     </net>
-    <net code="100" name="Net-(C202-Pad2)">
-      <node ref="C202" pin="2"/>
-      <node ref="R202" pin="2"/>
-      <node ref="Q201" pin="3"/>
+    <net code="87" name="Net-(C228-Pad2)">
+      <node ref="U205" pin="5"/>
+      <node ref="R244" pin="1"/>
+      <node ref="C228" pin="2"/>
     </net>
-    <net code="101" name="Net-(C202-Pad1)">
-      <node ref="C202" pin="1"/>
-      <node ref="Q202" pin="2"/>
-      <node ref="R203" pin="1"/>
+    <net code="88" name="Net-(R245-Pad2)">
+      <node ref="R245" pin="2"/>
+      <node ref="U205" pin="2"/>
+      <node ref="U205" pin="1"/>
     </net>
-    <net code="102" name="Net-(R203-Pad2)">
-      <node ref="RV201" pin="1"/>
-      <node ref="R203" pin="2"/>
+    <net code="89" name="Net-(C229-Pad2)">
+      <node ref="U205" pin="3"/>
+      <node ref="C229" pin="2"/>
+      <node ref="R255" pin="1"/>
     </net>
-    <net code="103" name="Net-(C201-Pad1)">
-      <node ref="Q201" pin="2"/>
-      <node ref="R201" pin="2"/>
-      <node ref="C201" pin="1"/>
+    <net code="90" name="Net-(C236-Pad1)">
+      <node ref="C236" pin="1"/>
+      <node ref="C237" pin="2"/>
+      <node ref="R254" pin="1"/>
     </net>
-    <net code="104" name="Net-(RV201-Pad3)">
-      <node ref="RV201" pin="3"/>
+    <net code="91" name="Net-(C236-Pad2)">
+      <node ref="U206" pin="5"/>
+      <node ref="C236" pin="2"/>
+      <node ref="R253" pin="1"/>
     </net>
-    <net code="105" name="Net-(C203-Pad2)">
-      <node ref="C203" pin="2"/>
+    <net code="92" name="Net-(C229-Pad1)">
+      <node ref="R245" pin="1"/>
+      <node ref="C234" pin="1"/>
+      <node ref="C229" pin="1"/>
+    </net>
+    <net code="93" name="Net-(C228-Pad1)">
+      <node ref="R246" pin="1"/>
+      <node ref="C228" pin="1"/>
+      <node ref="C235" pin="1"/>
+    </net>
+    <net code="94" name="Net-(R254-Pad2)">
+      <node ref="U206" pin="6"/>
+      <node ref="U206" pin="7"/>
+      <node ref="R254" pin="2"/>
+    </net>
+    <net code="95" name="Net-(R211-Pad2)">
+      <node ref="R211" pin="2"/>
+      <node ref="RV202" pin="2"/>
+    </net>
+    <net code="96" name="Net-(R213-Pad2)">
+      <node ref="R213" pin="2"/>
+      <node ref="RV203" pin="2"/>
+    </net>
+    <net code="97" name="Net-(C212-Pad2)">
+      <node ref="C212" pin="2"/>
+      <node ref="RV204" pin="2"/>
+    </net>
+    <net code="98" name="Net-(C211-Pad1)">
+      <node ref="R212" pin="2"/>
+      <node ref="RV203" pin="1"/>
+      <node ref="C211" pin="1"/>
+    </net>
+    <net code="99" name="Net-(C209-Pad1)">
+      <node ref="R208" pin="2"/>
+      <node ref="C209" pin="1"/>
+      <node ref="R209" pin="2"/>
+      <node ref="RV204" pin="3"/>
+    </net>
+    <net code="100" name="Net-(C210-Pad1)">
+      <node ref="R210" pin="2"/>
+      <node ref="C210" pin="1"/>
       <node ref="RV202" pin="1"/>
+    </net>
+    <net code="101" name="Net-(C210-Pad2)">
+      <node ref="R209" pin="1"/>
+      <node ref="RV202" pin="3"/>
+      <node ref="C210" pin="2"/>
+    </net>
+    <net code="102" name="Net-(C212-Pad1)">
+      <node ref="R214" pin="2"/>
+      <node ref="C212" pin="1"/>
+    </net>
+    <net code="103" name="Net-(C211-Pad2)">
+      <node ref="R208" pin="1"/>
+      <node ref="RV203" pin="3"/>
+      <node ref="C211" pin="2"/>
+    </net>
+    <net code="104" name="Net-(C214-Pad2)">
+      <node ref="R215" pin="2"/>
+      <node ref="C214" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D204-Pad1)">
+      <node ref="D204" pin="1"/>
+      <node ref="R218" pin="2"/>
+    </net>
+    <net code="106" name="Net-(C213-Pad1)">
+      <node ref="C213" pin="1"/>
+      <node ref="R211" pin="1"/>
+      <node ref="U202" pin="2"/>
+    </net>
+    <net code="107" name="Net-(C213-Pad2)">
+      <node ref="R213" pin="1"/>
+      <node ref="R214" pin="1"/>
+      <node ref="C213" pin="2"/>
+    </net>
+    <net code="108" name="Net-(C214-Pad1)">
+      <node ref="R212" pin="1"/>
+      <node ref="C214" pin="1"/>
+      <node ref="U202" pin="1"/>
+      <node ref="R210" pin="1"/>
+      <node ref="RV204" pin="1"/>
+    </net>
+    <net code="109" name="Net-(C204-Pad2)">
+      <node ref="C204" pin="2"/>
+      <node ref="R204" pin="2"/>
+    </net>
+    <net code="110" name="Net-(C203-Pad2)">
+      <node ref="U201" pin="2"/>
+      <node ref="C203" pin="2"/>
+    </net>
+    <net code="111" name="Net-(R204-Pad1)">
+      <node ref="RV201" pin="1"/>
+      <node ref="R204" pin="1"/>
+    </net>
+    <net code="112" name="Net-(C203-Pad1)">
+      <node ref="RV201" pin="2"/>
+      <node ref="C203" pin="1"/>
+      <node ref="U201" pin="1"/>
+    </net>
+    <net code="113" name="Net-(C205-Pad2)">
+      <node ref="RV201" pin="3"/>
+      <node ref="C205" pin="2"/>
+    </net>
+    <net code="114" name="Net-(C205-Pad1)">
+      <node ref="C205" pin="1"/>
+      <node ref="R205" pin="2"/>
+    </net>
+    <net code="115" name="Net-(C206-Pad2)">
+      <node ref="U201" pin="7"/>
+      <node ref="C206" pin="2"/>
+      <node ref="C233" pin="1"/>
+      <node ref="R206" pin="2"/>
+    </net>
+    <net code="116" name="Net-(C201-Pad1)">
+      <node ref="C201" pin="1"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="117" name="Net-(C201-Pad2)">
+      <node ref="R201" pin="1"/>
+      <node ref="C201" pin="2"/>
+      <node ref="SW203" pin="2"/>
+      <node ref="R219" pin="2"/>
+    </net>
+    <net code="118" name="Net-(C206-Pad1)">
+      <node ref="C206" pin="1"/>
+      <node ref="R205" pin="1"/>
+      <node ref="R206" pin="1"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="119" name="Net-(C202-Pad1)">
+      <node ref="U201" pin="3"/>
+      <node ref="R203" pin="2"/>
+      <node ref="R202" pin="1"/>
+      <node ref="C202" pin="1"/>
+    </net>
+    <net code="120" name="Net-(C209-Pad2)">
+      <node ref="C209" pin="2"/>
       <node ref="D202" pin="2"/>
+      <node ref="R207" pin="1"/>
       <node ref="D201" pin="1"/>
     </net>
-    <net code="106" name="Net-(D201-Pad2)">
-      <node ref="D201" pin="2"/>
-      <node ref="RV202" pin="2"/>
-      <node ref="U201" pin="2"/>
+    <net code="121" name="Net-(C233-Pad2)">
+      <node ref="C233" pin="2"/>
+      <node ref="R207" pin="2"/>
     </net>
-    <net code="107" name="Net-(C204-Pad1)">
-      <node ref="D202" pin="1"/>
-      <node ref="U201" pin="3"/>
-      <node ref="C206" pin="1"/>
-      <node ref="C204" pin="1"/>
+    <net code="122" name="Net-(Q202-Pad1)">
+      <node ref="R227" pin="1"/>
+      <node ref="Q202" pin="1"/>
     </net>
-    <net code="108" name="Net-(C204-Pad2)">
-      <node ref="RV202" pin="3"/>
-      <node ref="C204" pin="2"/>
+    <net code="123" name="Net-(C219-Pad1)">
+      <node ref="C219" pin="1"/>
+      <node ref="R223" pin="2"/>
     </net>
-    <net code="109" name="Net-(C203-Pad1)">
+    <net code="124" name="Net-(C219-Pad2)">
+      <node ref="Q201" pin="2"/>
+      <node ref="R222" pin="1"/>
+      <node ref="C219" pin="2"/>
+    </net>
+    <net code="125" name="Net-(C221-Pad1)">
+      <node ref="C221" pin="1"/>
+      <node ref="R228" pin="2"/>
+    </net>
+    <net code="126" name="Net-(C220-Pad2)">
+      <node ref="Q202" pin="2"/>
+      <node ref="R223" pin="1"/>
+      <node ref="C220" pin="2"/>
+      <node ref="R226" pin="1"/>
+      <node ref="R224" pin="2"/>
+    </net>
+    <net code="127" name="4.5V">
+      <node ref="R252" pin="2"/>
+      <node ref="C222" pin="1"/>
+      <node ref="Q203" pin="1"/>
+      <node ref="U204" pin="3"/>
+      <node ref="R220" pin="1"/>
+      <node ref="R253" pin="2"/>
+      <node ref="R231" pin="1"/>
+      <node ref="R244" pin="2"/>
+      <node ref="R255" pin="2"/>
+      <node ref="R232" pin="1"/>
+    </net>
+    <net code="128" name="Net-(C223-Pad1)">
+      <node ref="C223" pin="1"/>
+      <node ref="R233" pin="2"/>
+    </net>
+    <net code="129" name="Net-(C220-Pad1)">
+      <node ref="C223" pin="2"/>
+      <node ref="C220" pin="1"/>
       <node ref="Q202" pin="3"/>
-      <node ref="R204" pin="2"/>
-      <node ref="C203" pin="1"/>
-      <node ref="RV201" pin="2"/>
+      <node ref="C221" pin="2"/>
+      <node ref="R224" pin="1"/>
+      <node ref="R225" pin="2"/>
+    </net>
+    <net code="130" name="Net-(Q203-Pad2)">
+      <node ref="R230" pin="2"/>
+      <node ref="Q203" pin="2"/>
+    </net>
+    <net code="131" name="Net-(C222-Pad2)">
+      <node ref="R229" pin="2"/>
+      <node ref="R228" pin="1"/>
+      <node ref="Q203" pin="3"/>
+      <node ref="C222" pin="2"/>
+      <node ref="R231" pin="2"/>
+    </net>
+    <net code="132" name="Net-(R216-Pad2)">
+      <node ref="R216" pin="2"/>
+      <node ref="U202" pin="5"/>
+      <node ref="R217" pin="1"/>
+    </net>
+    <net code="133" name="Net-(C216-Pad1)">
+      <node ref="U202" pin="8"/>
+      <node ref="U203" pin="8"/>
+      <node ref="U206" pin="8"/>
+      <node ref="D203" pin="1"/>
+      <node ref="C216" pin="1"/>
+      <node ref="U201" pin="8"/>
+      <node ref="R216" pin="1"/>
+      <node ref="U205" pin="8"/>
+      <node ref="U204" pin="8"/>
+    </net>
+    <net code="134" name="Net-(C217-Pad2)">
+      <node ref="C217" pin="2"/>
+      <node ref="R219" pin="1"/>
+    </net>
+    <net code="135" name="Net-(C217-Pad1)">
+      <node ref="C217" pin="1"/>
+      <node ref="R220" pin="2"/>
+      <node ref="Q201" pin="3"/>
+    </net>
+    <net code="136" name="Net-(C218-Pad1)">
+      <node ref="R221" pin="1"/>
+      <node ref="C218" pin="1"/>
+    </net>
+    <net code="137" name="Net-(C215-Pad1)">
+      <node ref="C215" pin="1"/>
+      <node ref="SW201" pin="2"/>
+      <node ref="R215" pin="1"/>
+    </net>
+    <net code="138" name="Net-(RV205-Pad1)">
+      <node ref="SW201" pin="1"/>
+      <node ref="RV205" pin="1"/>
     </net>
   </nets>
 </export>
