@@ -405,33 +405,9 @@ Connection ~ 8300 3950
 Wire Wire Line
 	8300 3950 8500 3950
 Connection ~ 8500 3650
-$Comp
-L Device:R_POT RV303
-U 1 1 6211F20D
-P 9200 3800
-F 0 "RV303" H 9130 3754 50  0000 R CNN
-F 1 "100K" H 9130 3845 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 9200 3800 50  0001 C CNN
-F 3 "~" H 9200 3800 50  0001 C CNN
-	1    9200 3800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8500 3650 9200 3650
-Wire Wire Line
-	9050 3800 9050 4200
-$Comp
-L power:GND #PWR0142
-U 1 1 621212DC
-P 9200 3950
-F 0 "#PWR0142" H 9200 3700 50  0001 C CNN
-F 1 "GND" H 9205 3777 50  0000 C CNN
-F 2 "" H 9200 3950 50  0001 C CNN
-F 3 "" H 9200 3950 50  0001 C CNN
-	1    9200 3950
-	1    0    0    -1  
-$EndComp
-Text GLabel 9050 4200 3    50   Output Italic 10
+Text GLabel 9200 3650 2    50   Output Italic 10
 SAW_OUT
 $Comp
 L power:+9V #PWR0143
@@ -528,14 +504,6 @@ Wire Wire Line
 Text GLabel 2500 6250 1    50   Output Italic 10
 VCLEAN
 Wire Notes Line
-	10000 3500 8800 3500
-Text Notes 8850 3600 0    70   Italic 14
-DEATH METER
-Wire Notes Line
-	8300 4250 8800 4250
-Wire Notes Line
-	8800 4250 8800 3500
-Wire Notes Line
 	4400 5650 4400 7150
 Wire Notes Line
 	4400 7150 1150 7150
@@ -547,12 +515,6 @@ Text Notes 2350 5850 0    70   Italic 14
 POWER\n
 Text GLabel 2050 2700 0    50   Input ~ 0
 SIGNAL_IN
-Wire Notes Line
-	8300 4250 8300 4750
-Wire Notes Line
-	8300 4750 10000 4750
-Wire Notes Line
-	10000 4750 10000 3500
 $Comp
 L Switch:SW_SPDT SW301
 U 1 1 6283EB63
